@@ -27,7 +27,7 @@ const GrowthWith = () => {
                                     increase leads, phone calls,transactions, and qualified
                                     website traffic.
                                 </p>
-                                <Link to="/portfolio" className="stayBtn">
+                                <Link to="/about-us" className="stayBtn">
                                     Learn More
                                     <img src={RightArrow} alt="Go" />
                                 </Link>

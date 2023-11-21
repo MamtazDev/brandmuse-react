@@ -40,7 +40,8 @@
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: var(--otherColor2);
+    color: var(--otherColor2) !important;
+    /* color: red !important; */
 }
 
 .dropdown-item.active,

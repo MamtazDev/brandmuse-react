@@ -1,0 +1,26 @@
+.about_container {
+    background-image: url('../../assets/images/aboutbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about_container h3 {
+    color: var(--initialColor);
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.about_container .pageLink a {
+    color: var(--initialColor);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+}

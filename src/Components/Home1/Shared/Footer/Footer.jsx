@@ -4,12 +4,12 @@ import Logo from '../../../../assets/home1/headerLogo.png';
 import Instagram from '../../../../assets/home1/instagram.svg';
 import FaceBook from '../../../../assets/home1/facebook.svg';
 import Twitter from '../../../..//assets/home1/Twitter.png';
-import LetsTalk from '../Marquee/LetsTalk';
+import MarqueeFast from '../Marquee/MarqueeFast';
 
 const Footer = () => {
     return (
         <>
-        <LetsTalk/>
+        <MarqueeFast/>
         <footer>
             <div className="container">
                 <div className="row gy-3">

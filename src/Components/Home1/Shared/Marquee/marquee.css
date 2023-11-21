@@ -1,9 +1,6 @@
 /* MarQuee Start */
 
 .marqueeContainer {
-    max-width: 2500px;
-    margin: auto;
-    padding: 20px 0;
     background: var(--secondaryColor);
 }
 
@@ -19,28 +16,6 @@
     line-height: 150%;
 }
 
-.marquee {
-    white-space: nowrap;
-    min-width: 100%;
-    overflow: hidden;
-}
 
-@keyframes marqueeAnimation {
-    from {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    to {
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
-}
-
-.marque_items {
-    display: flex;
-    animation: marqueeAnimation 40s linear infinite;
-    animation-delay: -20s;
-}
 
 /* MarQuee End */

@@ -12,8 +12,8 @@ const ClientReviewSlider = () => {
         items: 1,
         loop: true,
         nav: true,
-        navText: ["<i class='fa fa-chevron-left'></i>", 
-        "<i class='fa fa-chevron-right'></i>"], 
+        navText: ["<i className='fa fa-chevron-left'></i>", 
+        "<i className='fa fa-chevron-right'></i>"], 
         autoplay: false,
         dots: false,
     }
@@ -49,8 +49,6 @@ const ClientReviewSlider = () => {
                                 <img src={Client} alt="img" />
                             </div>
                         </div>
-
-
                         <div className="item slider_wrapper">
                             <div className="item_wrapper">
                                 <div className="items">
@@ -75,7 +73,6 @@ const ClientReviewSlider = () => {
                                 <img src={Client} alt="img" />
                             </div>
                         </div>
-
                         <div className="item slider_wrapper">
                             <div className="item_wrapper">
                                 <div className="items">
