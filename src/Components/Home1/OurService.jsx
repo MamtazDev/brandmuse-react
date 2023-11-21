@@ -8,21 +8,21 @@ import { Link } from 'react-router-dom';
 const OurService = () => {
     return (
         <div>
-            <Section class="all_mb">
-                <div class="container">
-                    <h2 class="sectionHeader mb-3">Our <span class="txt_curve">Services</span></h2>
-                    <div class="row justify-content-center gy-3">
-                        <div class="col-md-6 col-xl-5">
-                            <div class="h-100">
-                                <p class="commonPara inner_mb">
+            <section className="all_mb">
+                <div className="container">
+                    <h2 className="sectionHeader mb-3">Our <span className="txt_curve">Services</span></h2>
+                    <div className="row justify-content-center gy-3">
+                        <div className="col-md-6 col-xl-5">
+                            <div className="h-100">
+                                <p className="commonPara inner_mb">
                                     Brandmuse offers a range of design services that
                                     are tailored to meet the unique needs of each client
                                 </p>
-                                <div class="d-flex flex-column customGap">
+                                <div className="d-flex flex-column customGap">
                                     <Link to="service"
-                                        class="allService d-flex justify-content-between align-items-center">
+                                        className="allService d-flex justify-content-between align-items-center">
                                         <div>
-                                            <span class="me-3">01</span>
+                                            <span className="me-3">01</span>
                                             UI/UX Design
                                         </div>
                                         <span>
@@ -43,9 +43,9 @@ const OurService = () => {
                                         </span>
                                     </Link>
                                     <Link to="/service"
-                                        class="allService d-flex justify-content-between align-items-center">
+                                        className="allService d-flex justify-content-between align-items-center">
                                         <div>
-                                            <span class="me-3">02</span>
+                                            <span className="me-3">02</span>
                                             Web Development
                                         </div>
                                         <span>
@@ -66,9 +66,9 @@ const OurService = () => {
                                         </span>
                                     </Link>
                                     <Link to="service"
-                                        class="allService d-flex justify-content-between align-items-center">
+                                        className="allService d-flex justify-content-between align-items-center">
                                         <div>
-                                            <span class="me-3">03</span>
+                                            <span className="me-3">03</span>
                                             3D Designs
                                         </div>
                                         <span>
@@ -89,9 +89,9 @@ const OurService = () => {
                                         </span>
                                     </Link>
                                     <Link to="service"
-                                        class="allService d-flex justify-content-between align-items-center">
+                                        className="allService d-flex justify-content-between align-items-center">
                                         <div>
-                                            <span class="me-3">04</span>
+                                            <span className="me-3">04</span>
                                             Motion Graphics
                                         </div>
                                         <span>
@@ -115,44 +115,44 @@ const OurService = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="serviceImg">
-                                <img class="img-fluid h-100" src={ServiceImg} alt="img" />
+                        <div className="col-md-6 col-xl-4">
+                            <div className="serviceImg">
+                                <img className="img-fluid h-100" src={ServiceImg} alt="img" />
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-3">
-                            <div class="h-100">
-                                <div class="serviceBg howWorkBg mb-3">
-                                    <p class="commonPara text-white">
+                        <div className="col-md-6 col-xl-3">
+                            <div className="h-100">
+                                <div className="serviceBg howWorkBg mb-3">
+                                    <p className="commonPara text-white">
                                         Ever wondered how
                                         design magic happens?
                                     </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="serviceTxt">See how<br /> we work</p>
-                                        <div class="arrowPosition">
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <p className="serviceTxt">See how<br /> we work</p>
+                                        <div className="arrowPosition">
                                             <a href="service.html">
-                                                <img class="img-fluid goArrow" src={ArrowIcon}
+                                                <img className="img-fluid goArrow" src={ArrowIcon}
                                                     alt="img" />
-                                                <img class="img-fluid" src={HowWork} alt="img" />
+                                                <img className="img-fluid" src={HowWork} alt="img" />
                                             </a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="serviceBg meetExpertBg">
-                                    <p class="commonPara text-white mb-4">
+                                <div className="serviceBg meetExpertBg">
+                                    <p className="commonPara text-white mb-4">
                                         Looking for design
                                         experts who can bring
                                         your vision to life?
                                     </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="serviceTxt headerHilightSec">Meet Our <br />Expert
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <p className="serviceTxt headerHilightSec">Meet Our <br />Expert
                                         </p>
-                                        <div class="arrowPosition">
+                                        <div className="arrowPosition">
                                             <Link to="/service">
-                                                <img class="img-fluid goArrow" src={ArrowIcon}
+                                                <img className="img-fluid goArrow" src={ArrowIcon}
                                                     alt="img" />
-                                                <img class="img-fluid" src={MeetExpert} alt="img" />
+                                                <img className="img-fluid" src={MeetExpert} alt="img" />
                                             </Link>
                                         </div>
                                     </div>
@@ -161,7 +161,7 @@ const OurService = () => {
                         </div>
                     </div>
                 </div>
-            </Section>
+            </section>
         </div>
     );
 };

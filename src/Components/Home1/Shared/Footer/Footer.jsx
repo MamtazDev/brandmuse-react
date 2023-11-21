@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css'
 import Logo from '../../../../assets/home1/headerLogo.png';
 import Instagram from '../../../../assets/home1/instagram.svg';
 import FaceBook from '../../../../assets/home1/facebook.svg';

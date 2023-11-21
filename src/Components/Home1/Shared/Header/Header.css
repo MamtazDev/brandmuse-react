@@ -1,0 +1,145 @@
+/* Header Start */
+
+.navbar {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+.navbar-nav {
+    gap: 46px;
+}
+
+.nav-link {
+    color: var(--initialColor);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    /* margin-left: 0.255em; */
+    margin-left: 0;
+    vertical-align: 0.2em;
+    content: "";
+    height: 15px;
+    width: 20px;
+    border-top: 0 !important;
+    border-right: none !important;
+    border-bottom: 0 !important;
+    border-left: none !important;
+    background-image: url("../../assets/home1/direction-down2.png") !important;
+}
+
+.nav-link:hover {
+    color: var(--otherColor2);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--otherColor2);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: var(--initialColor);
+    background-color: var(--primaryColor) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.authBtn a {
+    padding: 10px;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    border: 1px solid transparent;
+}
+
+.authBtn a:first-child {
+    background-color: transparent;
+    color: var(--initialColor);
+    transition: 0.6s ease-in-out;
+}
+
+.authBtn a:last-child {
+    background: var(--secondaryColor);
+    color: var(--neutralColor);
+}
+
+.authBtn a:first-child:hover {
+    border: 1px solid var(--secondaryColor);
+}
+
+.authBtn a:last-child:hover {
+    background: transparent !important;
+    color: var(--initialColor) !important;
+    border: 1px solid var(--secondaryColor);
+}
+
+/* Responsive Header Start */
+
+@media only screen and (max-width:1170px) {
+    .navbar-nav {
+        gap: 25px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .navbar-nav {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .authBtn {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .authBtn a {
+        width: max-content;
+    }
+
+    .navbar-collapse {
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav {
+        gap: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .logoImg {
+        max-width: 200px;
+    }
+}
+
+/* Responsive Header End */
+/* Header End */

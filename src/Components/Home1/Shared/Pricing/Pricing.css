@@ -1,0 +1,150 @@
+/* Our Pricing Start */
+
+.billed_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.pricing_card {
+    border-radius: 24px;
+    border: 1px solid var(--OtherColor4);
+    background: var(--initialColor);
+    box-shadow: 0px 2px 12px 0px var(--boxShadowColor);
+    padding: 50px 70px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.pricing_card:hover {
+    background: var(--primaryColor);
+}
+
+@media only screen and (max-width:768px) {
+    .pricing_card {
+        padding: 50px 24px;
+    }
+}
+
+
+.toggle_desing {
+    width: 80px !important;
+    height: 40px !important;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
+.form-check-input {
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
+.form-switch .form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+}
+
+.form-switch .form-check-input {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+}
+
+.p_card_head {
+    gap: 18px;
+}
+
+.pricing_text p:last-child {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    color: var(--buttonColor);
+}
+
+
+.price {
+    color: var(--buttonColor);
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.price span {
+    color: var(--textColor);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pricing_btn {
+    width: 100%;
+    padding: 17px 0px;
+    border-radius: 13px;
+    background: var(--primaryColor);
+    margin-top: 55px;
+    color: var(--initialColor);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.pricing_card:hover .pricing_btn {
+    background-color: var(--initialColor);
+    color: var(--primaryColor);
+}
+
+
+.checkOpacity {
+    display: block;
+    transition: 0.6s ease-in-out;
+}
+
+.checkOpacityHover {
+    display: none;
+    transition: 0.6s ease-in-out;
+}
+
+.pricing_card:hover .checkOpacityHover {
+    display: block;
+}
+
+.pricing_card:hover .checkOpacity {
+    display: none;
+}
+
+.pricing_card p,
+.pricing_card span {
+    transition: 0.6s ease-in-out;
+}
+
+.pricing_card:hover p,
+.pricing_card:hover span {
+    color: var(--initialColor) !important;
+}
+
+.fs_24 {
+    color: var(--buttonColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .fs_24 {
+        font-size: 16px;
+    }
+
+    .toggle_desing {
+        width: 57px !important;
+        height: 31px !important;
+    }
+}
+
+/* Our Pricing End */

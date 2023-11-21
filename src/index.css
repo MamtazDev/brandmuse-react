@@ -193,3 +193,89 @@ input {
         font-size: 12px;
     }
 }
+
+
+
+.headerHilight {
+    color: var(--primaryColor) !important;
+}
+
+.headerHilightSec {
+    color: var(--secondaryColor) !important;
+}
+
+.darkFont {
+    color: var(--buttonColor);
+    font-size: 18px;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .darkFont {
+        font-size: 16px;
+    }
+}
+
+.txt_curve {
+    position: relative;
+    color: var(--primaryColor);
+}
+
+.txt_curve::after {
+    position: absolute;
+    content: "";
+    bottom: -24px;
+    left: -8px;
+    height: 57%;
+    width: 110%;
+    border: 5px;
+    border-style: solid;
+    border-color: var(--secondaryColor) transparent transparent transparent;
+    border-radius: 45% 45% 0 0;
+}
+
+@media only screen and (max-width:768px) {
+    .txt_curve::after {
+        height: 70%;
+        position: absolute;
+        content: "";
+        bottom: -17px;
+        left: -8px;
+        width: 110%;
+        border: 3px;
+        border-style: solid;
+        border-color: var(--secondaryColor) transparent transparent transparent;
+        border-radius: 45% 45% 0 0;
+    }
+}
+
+.cardPara {
+    color: var(--textColor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    transition: 0.6s ease-in-out;
+}
+
+@media only screen and (max-width:768px) {
+    .cardPara {
+        font-size: 16px;
+    }
+}
+
+.commonPara {
+    color: var(--textColor);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .commonPara {
+        font-size: 16px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

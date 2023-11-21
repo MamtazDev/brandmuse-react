@@ -7,6 +7,8 @@ import OurApproch from '../../Components/Home1/Shared/OurApproch/OurApproch';
 import GrowthWith from '../../Components/Home1/Shared/GrowthWith/GrowthWith';
 import BestService from '../../Components/Home1/Shared/BestService/BestService';
 import OurService from '../../Components/Home1/OurService';
+import Pricing from '../../Components/Home1/Shared/Pricing/Pricing';
+import ClientReviewSlider from '../../Components/Home1/Shared/ClientReview/ClientReviewSlider';
 
 const Home = () => {
     return (
@@ -17,7 +19,9 @@ const Home = () => {
             <OurApproch/>
             <GrowthWith/>
             <BestService/>
-            {/* <OurService/> */}
+            <OurService/>
+            <Pricing/>
+            <ClientReviewSlider/>
         </div>
     );
 };
