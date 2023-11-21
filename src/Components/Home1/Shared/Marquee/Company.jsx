@@ -10,50 +10,50 @@ import Slider6 from '../../../../assets/home1/slider6.png'
 const Company = () => {
     return (
         <div>
-            <div class="all_mb">
-                <div class="container">
-                    <div class="marquee-container">
-                        <div class="marquee">
-                            <div class="initial-child-container">
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider1} alt="img" />
+            <div className="all_mb">
+                <div className="container">
+                    <div className="marquee-container">
+                        <div className="marquee">
+                            <div className="initial-child-container">
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider1} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider2}alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider2}alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider3}  alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider3}  alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider4} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider4} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider5} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider5} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider6} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider6} alt="img" />
                                 </div>
                             </div>
                         </div>
-                        <div class="marquee">
-                            <div class="initial-child-container">
-                            <div class="child">
-                                    <img class="img-fluid" src={Slider1} alt="img" />
+                        <div className="marquee">
+                            <div className="initial-child-container">
+                            <div className="child">
+                                    <img className="img-fluid" src={Slider1} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider2}alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider2}alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider3}  alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider3}  alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider4} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider4} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider5} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider5} alt="img" />
                                 </div>
-                                <div class="child">
-                                    <img class="img-fluid" src={Slider6} alt="img" />
+                                <div className="child">
+                                    <img className="img-fluid" src={Slider6} alt="img" />
                                 </div>
 
                             </div>

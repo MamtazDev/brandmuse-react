@@ -2,7 +2,11 @@ import React from 'react';
 import './home.css'
 import Banner from '../../Components/Home1/Banner';
 import Company from '../../Components/Home1/Shared/Marquee/Company';
-import GetStarted from '../../Components/Home1/GetStarted';
+import GetStarted from '../../Components/Home1/Shared/GetStarted/GetStarted';
+import OurApproch from '../../Components/Home1/Shared/OurApproch/OurApproch';
+import GrowthWith from '../../Components/Home1/Shared/GrowthWith/GrowthWith';
+import BestService from '../../Components/Home1/Shared/BestService/BestService';
+import OurService from '../../Components/Home1/OurService';
 
 const Home = () => {
     return (
@@ -10,6 +14,10 @@ const Home = () => {
             <Banner/>
             <Company/>
             <GetStarted/>
+            <OurApproch/>
+            <GrowthWith/>
+            <BestService/>
+            {/* <OurService/> */}
         </div>
     );
 };

@@ -1,22 +1,24 @@
 import React from 'react';
+import './OurApproch.css'
 import RightArrow from '../../../../assets/home1/rightArrowblack.png'
+import { Link } from 'react-router-dom';
 
 const OurApproch = () => {
     return (
         <div>
             {/* <!-- Our approach Start --> */}
-            <section class="all_mb ourApproch">
-                <div class="container">
-                    <div class="text-center">
+            <section className="all_mb ourApproch">
+                <div className="container">
+                    <div className="text-center">
                         <span>Our approach</span>
                         <p>
                             Our tech-enabled marketing services help your
                             business grow online leads, calls, and revenue.
                         </p>
-                        <a href="contactUs.html" class="approchBtn">
+                        <Link href="/contact-us" className="approchBtn">
                             Let’s Talk
-                            <img class="img-fluid" src={RightArrow} alt="Go" />
-                        </a>
+                            <img className="img-fluid" src={RightArrow} alt="Go" />
+                        </Link>
                     </div>
                 </div>
             </section>

@@ -1,0 +1,60 @@
+/* Get started with us Start */
+
+.getStartedInner {
+    padding: 45px 20px;
+    border-radius: 11px;
+    background: var(--otherColor2);
+    transition: 0.6s ease-in-out;
+}
+
+.getStartedInner:hover {
+    background: var(--primaryColor);
+}
+
+.getStartedInner span {
+    color: var(--neutralColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    transition: 0.6s ease-in-out;
+}
+
+
+.getStatedImg {
+    padding: 20px;
+    border-radius: 50%;
+    background: var(--initialColor);
+    transition: 0.6s ease-in-out;
+}
+
+.getStartedInner:hover .getStatedImg {
+    background: var(--secondaryColor);
+}
+
+.getStartedInner:hover.getStartedInner span,
+.getStartedInner:hover.getStartedInner p {
+    color: var(--initialColor);
+}
+
+.getStatedImg img {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
+
+/* Get Started Responsive Start */
+
+@media only screen and (max-width:768px) {
+
+    .getStartedInner span {
+        font-size: 20px;
+    }
+
+    .getStatedImg {
+        padding: 12px;
+    }
+}
+
+/* Get Started Responsive End */
+/* Get started with us End */

@@ -1,0 +1,100 @@
+/* Our approach Start */
+
+.ourApproch {
+    background-image: url("../../../../assets/home1/ourApprochBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 99px 0;
+}
+
+.ourApproch span {
+    position: relative;
+    text-align: center;
+    display: block;
+    color: var(--initialColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.faq_title span {
+    position: relative;
+    text-align: center;
+    display: block;
+    color: var(--buttonColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.ourApproch span::before {
+    position: absolute;
+    content: url('../../../../assets/home1/ourApproch.png');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ourApproch p {
+    color: var(--initialColor);
+    text-align: center;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.approchBtn {
+    padding: 15px 35px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 13px;
+    background: var(--secondaryColor);
+    color: var(--neutralColor);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 30px;
+    display: inline-block;
+    transition: 0.6s ease-in-out;
+}
+
+.approchBtn:hover {
+    background: transparent;
+    color: var(--initialColor);
+}
+
+
+
+/* Our approach Responsive Start */
+
+@media only screen and (max-width:768px) {
+
+    .ourApproch {
+        padding: 24px 0;
+    }
+
+    .ourApproch p {
+        font-size: 17px;
+    }
+
+    .ourApproch span {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .ourApproch span::before {
+        content: url('../../../../assets/home1/ourApprochMobile.png');
+    }
+
+    .approchBtn {
+        margin-top: 18px;
+        font-size: 14px;
+    }
+}
+
+/* Our approach Responsive End */
+/* Our approach End */

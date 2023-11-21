@@ -7,264 +7,264 @@ const LetsTalk = () => {
     return (
         <div>
             {/* <!-- Marquee Start --> */}
-            <div class="marqueeContainer">
-                <div class="marquee d-flex flex-nowrap gap-5">
-                    <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
-                        <div class="d-flex align-items-center gap-2">
+            <div className="marqueeContainer">
+                <div className="marquee d-flex flex-nowrap gap-5">
+                    <div className="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+                        <div className="d-flex align-items-center gap-2">
                             <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
                     </div>
-                    <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
-                        <div class="d-flex align-items-center gap-2">
+                    <div className="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
-                           <img src={Star} alt="Star" />
-                            <p>Let's Talk Now</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>
 
-                        <div class="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2">
+                           <img src={Star} alt="Star" />
+                            <p>Let's Talk Now</p>
+                        </div>
+
+                        <div className="d-flex align-items-center gap-2">
                            <img src={Star} alt="Star" />
                             <p>Let's Talk Now</p>
                         </div>

@@ -10,20 +10,20 @@ const Banner = () => {
     return (
         <div>
             {/* <!-- Hero Start --> */}
-            <section class="all_mb">
-                <div class="heroBg">
-                    <div class="container">
-                        <div class="row align-items-center gy-2">
-                            <div class="col-md-7">
-                                <h1 class="text-light">
+            <section className="all_mb">
+                <div className="heroBg">
+                    <div className="container">
+                        <div className="row align-items-center gy-2">
+                            <div className="col-md-7">
+                                <h1 className="text-light">
                                     Empower Your Brand
                                     with Our
                                     <span>Creativity
-                                        <img class="img-fluid" src={Highlight} alt="highlight"/>
+                                        <img className="img-fluid" src={Highlight} alt="highlight"/>
                                     </span>
                                 </h1>
                             </div>
-                            <div class="col-md-5">
+                            <div className="col-md-5">
                                 <p>
                                     An award-winning creative agency with disciplines in digital
                                     marketing, design, and website development, focused on
@@ -33,28 +33,28 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="text-center banner">
-                        <div class="circlePosition">
-                            <div class="d-none d-md-block">
-                                <img class="bounnceArrow img-fluid " src={Arrow} alt="img" />
+                <div className="container">
+                    <div className="text-center banner">
+                        <div className="circlePosition">
+                            <div className="d-none d-md-block">
+                                <img className="bounnceArrow img-fluid " src={Arrow} alt="img" />
                             </div>
-                            <div class="d-block d-md-none">
-                                <img class="bounnceArrow img-fluid" src={ArrowSmall}
+                            <div className="d-block d-md-none">
+                                <img className="bounnceArrow img-fluid" src={ArrowSmall}
                                     alt="img" />
                             </div>
 
-                            <div class="circleTxt">
-                                <div class="d-none d-md-block">
-                                    <img class="img-fluid" src={TalkCircle} alt="circle" />
+                            <div className="circleTxt">
+                                <div className="d-none d-md-block">
+                                    <img className="img-fluid" src={TalkCircle} alt="circle" />
                                 </div>
-                                <div class="d-block d-md-none">
-                                    <img class=" img-fluid" src={TalkCircleSmall} alt="img" />
+                                <div className="d-block d-md-none">
+                                    <img className=" img-fluid" src={TalkCircleSmall} alt="img" />
                                 </div>
 
                             </div>
                         </div>
-                        <img class="img-fluid" src={BannerImg} alt="Banner" />
+                        <img className="img-fluid" src={BannerImg} alt="Banner" />
                     </div>
                 </div>
             </section>

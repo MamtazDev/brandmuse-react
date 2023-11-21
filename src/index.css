@@ -11,7 +11,7 @@
     --OtherColor4: rgba(238, 238, 238, 0.93);
     --buttonColor: #1A1A1A;
     --boxShadowColor: rgba(20, 20, 43, 0.08);
-    
+
     --play: running;
     --direction: normal;
     --duration: 43.977777777777774s;
@@ -169,4 +169,27 @@ input {
 
 .initialColor {
     color: var(--initialColor) !important;
+}
+
+
+.stayBtn {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 13px;
+    background: var(--buttonColor);
+    color: var(--initialColor);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    transition: 0.6s ease-in-out;
+}
+
+.stayBtn:hover {
+    background: var(--primaryColor);
+}
+
+@media only screen and (max-width:768px) {
+    .stayBtn {
+        font-size: 12px;
+    }
 }

@@ -43,7 +43,7 @@ const Header = () => {
                                 <Link className="nav-link" to="service.html">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="portfolio.html">Portfolio</Link>
+                                <Link className="nav-link" to="/portfolio">Portfolio</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown1" role="button"
@@ -59,7 +59,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="ContactUs.html">Contact Us</Link>
+                                <Link className="nav-link" to="/contact-us">Contact Us</Link>
                             </li>
                         </ul>
                         <form className="d-flex gap-2 authBtn">
