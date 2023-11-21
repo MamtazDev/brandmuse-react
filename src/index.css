@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --primaryColor: #5D51F2;
+    --secondaryColor: #FFDC40;
+    --neutralColor: #393939;
+    --initialColor: #FFF;
+    --textColor: #6A6A6A;
+    --otherColor: #C9C9C9;
+    --otherColor2: #F7F6FF;
+    --OtherColor4: rgba(238, 238, 238, 0.93);
+    --buttonColor: #1A1A1A;
+    --boxShadowColor: rgba(20, 20, 43, 0.08);
+    
+    --play: running;
+    --direction: normal;
+    --duration: 43.977777777777774s;
+    --delay: 0s;
+    --iteration-count: infinite;
+    --min-width: 100%;
+    --transform: none;
+    --width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('./Fonts/ClashDisplay-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('./Fonts/ClashDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('./Fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('./Fonts/ClashDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('./Fonts/ClashDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('./Fonts/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+
+.container {
+    max-width: 1420px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+.all_mb {
+    margin-bottom: 140px;
+}
+
+.pt_150 {
+    padding-top: 150px;
+}
+
+@media only screen and (max-width:768px) {
+    .all_mb {
+        margin-bottom: 70px;
+    }
+
+    .pt_150 {
+        padding-top: 50px;
+    }
+}
+
+.inner_mb {
+    margin-bottom: 45px;
+}
+
+@media only screen and (max-width:768px) {
+    .inner_mb {
+        margin-bottom: 25px;
+    }
+}
+
+.txtOpacity {
+    opacity: 0.9;
+}
+
+.initialColor {
+    color: var(--initialColor) !important;
+}

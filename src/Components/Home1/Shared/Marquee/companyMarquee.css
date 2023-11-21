@@ -1,0 +1,56 @@
+.marquee-container {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: var(--width);
+    transform: var(--transform);
+}
+
+.marquee {
+    flex: 0 0 auto;
+    min-width: var(--min-width);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+    animation-play-state: var(--play);
+    animation-delay: var(--delay);
+    animation-direction: var(--direction);
+}
+
+.initial-child-container {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: auto;
+    flex-direction: row;
+}
+
+.child {
+    transform: var(--transform);
+}
+
+.child img {
+    margin: 0 70px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .child img {
+        margin: 0 30px;
+    }
+    
+}
+
+/* Marquee End */
