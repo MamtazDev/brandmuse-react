@@ -1,100 +1,86 @@
 import React from 'react';
+import './PortfolioSlider.css'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import RightArrow from '../../../assets/images/guidance_up-arrow.png';
+import { portfolioSliderDatas } from '../../../Utils/portfolioSliderData';
+import { Link } from 'react-router-dom';
 
 const PortfolioSlider = () => {
     const options = {
         items: 1,
         loop: true,
-        nav: true,
-        navText: ["<i class='fa fa-chevron-left'></i>", 
-        "<i class='fa fa-chevron-right'></i>"], 
-        autoplay: false,
-        dots: false,
+        autoplay: true,
+        dots: true,
+        navText: false,
     }
-
 
     return (
         <div>
-            {/* <!-- by our clients Slider Start --> */}
-            <div className="shadowField">
-                <div className="container">
+            <div className="shadowField1">
+                <div className="container mt_150 all_mb">
+                    <div className="inner_mb d-flex justify-content-between align-items-center">
+                        <p className="sectionHeader text-center text-md-start mx-md-0 mx-auto">Some Of <br className="d-md-block" />
+                            The<span className="txt_curve"> Projects</span> We Have <br className="d-md-block" />
+                            Done Well
+                        </p>
+
+                        <div className="d-none d-md-block">
+                            <Link to="/portfolio" className="black fw_600 fs_24">
+                                View More
+                                <img className="img-fluid" src={RightArrow} alt="go" />
+                            </Link>
+                        </div>
+                    </div>
+
                     <OwlCarousel className='owl-theme' {...options}>
-                        <div className="item slider_wrapper">
-                            <div className="item_wrapper">
-                                <div className="items">
-                                    <div className="client_content ">
-                                        <div className="inner_mb">
-                                            <h2 className="sectionHeader text-center text-lg-start" style={{ fontSize: '24px' }}>By
-                                                our <span className="txt_curve">Clients</span>
-                                            </h2>
+                        {portfolioSliderDatas.map((data, index) =>
 
+                            <div key={index} className="item me-1">
+                                <div className="row">
+                                    <div className="col-lg-6 portfolio_slider">
+                                        <div>
+                                            <img className="img-fluid" src={data.imageUrl} alt="img" />
+                                            <p className='fs_20 mt-4'>{data.title}</p>
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <h1 className="fs_48 mb-3">{data.content}</h1>
+                                                <div className="project_details_btn">
+                                                    <Link to="/portfolio">
+                                                        <img className='img-fluid' src={RightArrow} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <p className="slider_text">
-                                            "Co-founding your company with Brandmuse means
-                                            you get a team of product builders, business
-                                            operators, entrepreneurs and fund-raisers."
-                                        </p>
-                                        <h6 className="fs_24 fw_600 title" style={{ marginBottom: '3px' }}>Sabrina Gomez</h6>
-                                        <small className="fs_18 fw_500 grey">CEO Ncx Faster</small>
+                                    </div>
+                                    <div className="col-lg-6 portfolio_slider slider_margin">
+                                        <div>
+                                            <img className="img-fluid" src={data.imageUrl2} alt="img" />
+                                            <p className='fs_20 mt-4'>{data.title2}</p>
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <h1 className="fs_48 mb-3">{data.content2}</h1>
+                                                <div className="project_details_btn">
+                                                    <Link to="/portfolio">
+                                                        <img className='img-fluid' src={RightArrow} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="slider_img">
-                                <img src={Client} alt="img" />
-                            </div>
-                        </div>
-                        <div className="item slider_wrapper">
-                            <div className="item_wrapper">
-                                <div className="items">
-                                    <div className="client_content ">
-                                        <div className="inner_mb">
-                                            <h2 className="sectionHeader text-center text-lg-start" style={{ fontSize: '24px' }}>By
-                                                our <span className="txt_curve">Clients</span>
-                                            </h2>
-
-                                        </div>
-                                        <p className="slider_text">
-                                            "Co-founding your company with Brandmuse means
-                                            you get a team of product builders, business
-                                            operators, entrepreneurs and fund-raisers."
-                                        </p>
-                                        <h6 className="fs_24 fw_600 title" style={{ marginBottom: '3px' }}>Sabrina Gomez</h6>
-                                        <small className="fs_18 fw_500 grey">CEO Ncx Faster</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="slider_img">
-                                <img src={Client} alt="img" />
-                            </div>
-                        </div>
-                        <div className="item slider_wrapper">
-                            <div className="item_wrapper">
-                                <div className="items">
-                                    <div className="client_content ">
-                                        <div className="inner_mb">
-                                            <h2 className="sectionHeader text-center text-lg-start" style={{ fontSize: '24px' }}>By
-                                                our <span className="txt_curve">Clients</span>
-                                            </h2>
-
-                                        </div>
-                                        <p className="slider_text">
-                                            "Co-founding your company with Brandmuse means
-                                            you get a team of product builders, business
-                                            operators, entrepreneurs and fund-raisers."
-                                        </p>
-                                        <h6 className="fs_24 fw_600 title" style={{ marginBottom: '3px' }}>Sabrina Gomez</h6>
-                                        <small className="fs_18 fw_500 grey">CEO Ncx Faster</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="slider_img">
-                                <img src={Client} alt="img" />
-                            </div>
-                        </div>
+                        )}
                     </OwlCarousel>
+
+                    <div className="d-block d-md-none text-center mt-3">
+                        <Link to="/portfolio" className="black fw_600 fs_24">
+                            View More
+                            <img className="img-fluid" src={RightArrow} alt="go" />
+                        </Link>
+                    </div>
 
                 </div>
             </div>
-
         </div>
     );
 };

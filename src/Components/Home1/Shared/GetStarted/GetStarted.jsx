@@ -1,5 +1,5 @@
 import React from 'react';
-import './Getstarted.css'
+import './Getstarted.css';
 import RightArrow from '../../../../assets/home1/rightArrow.png';
 import GetStarted1 from '../../../../assets/home1/getStarted1.png';
 import GetStarted2 from '../../../../assets/home1/getStarted2.png';

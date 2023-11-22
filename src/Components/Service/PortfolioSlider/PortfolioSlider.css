@@ -1,0 +1,24 @@
+/* portfolio_slider */
+.project_details_btn {
+    border: 1px solid var(--otherColor);
+    border-radius: 50%;
+    padding: 18px;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: var(--primaryColor);
+    width: 30px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .project_details_btn {
+        padding: 11px !important;
+    }
+
+    .project_details_btn img {
+        width: 19px;
+        height: 19px;
+    }
+}
