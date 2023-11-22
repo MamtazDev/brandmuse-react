@@ -12,8 +12,8 @@ const ClientReviewSlider = () => {
         items: 1,
         loop: true,
         nav: true,
-        navText: ["<i className='fa fa-chevron-left'></i>", 
-        "<i className='fa fa-chevron-right'></i>"], 
+        navText: ["<i class='fa fa-chevron-left'></i>", 
+        "<i class='fa fa-chevron-right'></i>"], 
         autoplay: false,
         dots: false,
     }

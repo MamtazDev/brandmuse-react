@@ -9,8 +9,7 @@ const BreadCrumb = ({title}) => {
     const path = location.pathname;
     return (
         <div>
-            {/* <!-- page header --> */}
-            <section className="about_container">
+            <section className="about_container all_mb">
                 <div className="container">
                     <div>
                         <h3 className="breadcrumb_title">{title}</h3>
@@ -23,7 +22,6 @@ const BreadCrumb = ({title}) => {
                     </div>
                 </div>
             </section>
-            {/* <!-- page header --> */}
         </div>
     );
 };

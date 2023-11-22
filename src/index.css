@@ -140,16 +140,26 @@ input {
 }
 
 .pt_150 {
-    padding-top: 150px;
+    padding-top: 140px;
+}
+
+
+.mt_150 {
+    margin-top: 140px;
+
 }
 
 @media only screen and (max-width:768px) {
     .all_mb {
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .pt_150 {
         padding-top: 50px;
+    }
+
+    .mt_150 {
+        margin-top: 50px !important;
     }
 }
 
