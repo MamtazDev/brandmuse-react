@@ -28,7 +28,7 @@ const AllService = () => {
                                     <p className="fs_20 fw_400 black">{data.content}</p>
                                 </div>
                                 <div className="img_round_yellow_bg">
-                                    <Link to="#">
+                                    <Link to={`/service-details/${data.slug}`}>
                                         <img src={Arrow} alt="img" />
                                     </Link>
                                 </div>
