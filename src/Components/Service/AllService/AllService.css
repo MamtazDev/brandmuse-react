@@ -1,0 +1,64 @@
+.service_hover_image {
+    display: none;
+}
+
+.service_sec1_padding:hover .service_hover_image {
+    display: block;
+    margin: auto;
+}
+
+.service_sec1_padding:hover .service_image {
+    display: none;
+}
+
+
+.service_sec1_padding {
+    padding: 32px 52px;
+    border-radius: 11px;
+    border: 1px solid rgba(238, 238, 238, 0.93);
+    background: #FFF;
+    transition: ease-in-out 0.5s;
+}
+
+.service_sec1_padding:hover {
+    background: var(--primaryColor);
+    box-shadow: 0px 4px 24px 0px rgba(93, 81, 242, 0.12);
+}
+
+.service_sec1_padding:hover h3,
+.service_sec1_padding:hover p {
+    color: white;
+}
+
+.service_sec1_padding h3,
+.service_sec1_padding p {
+    margin-bottom: 12px;
+}
+
+.img_round_yellow_bg {
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    padding: 18px;
+    margin: auto;
+    transition: 0.6s ease-in-out;
+    background-color: transparent;
+}
+
+.service_sec1_padding:hover .img_round_yellow_bg {
+    background-color: var(--secondaryColor);
+}
+
+.para_text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .para_text {
+        font-size: 16px;
+    }
+}

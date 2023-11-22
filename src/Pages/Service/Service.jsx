@@ -3,20 +3,22 @@ import BreadCrumb from '../../Utils/BreadCrumb/BreadCrumb';
 import GetStarted from '../../Components/Home1/Shared/GetStarted/GetStarted';
 import OurApproch from '../../Components/Home1/Shared/OurApproch/OurApproch';
 import GrowthWith from '../../Components/Home1/Shared/GrowthWith/GrowthWith';
-import BestService from '../../Components/Home1/Shared/BestService/BestService';
 import ClientReviewSlider from '../../Components/Home1/Shared/ClientReview/ClientReviewSlider';
+import Pricing from '../../Components/Home1/Shared/Pricing/Pricing';
+import AllService from '../../Components/Service/AllService/AllService';
 
-const About = () => {
+const Service = () => {
     return (
         <div>
-            <BreadCrumb title="About US"></BreadCrumb>
+            <BreadCrumb title="Service"></BreadCrumb>
+            <AllService/>
             <GetStarted/>
             <OurApproch/>
             <GrowthWith/>
-            <BestService/>
+            <Pricing />
             <ClientReviewSlider/>
         </div>
     );
 };
 
-export default About;
+export default Service;
