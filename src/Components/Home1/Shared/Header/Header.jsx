@@ -22,13 +22,10 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto">
                             <li className="nav-item dropdown">
-                                <Link className={location.pathname === '/' ? 'nav-link dropdown-toggle active' : 'nav-link dropdown-toggle'}
-                                
-                                to="/" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown">
+                                <Link className='nav-link dropdown-toggle' to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
                                     Home
                                 </Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
                                     <li>
                                         <Link className={location.pathname === '/' ? 'dropdown-item active' : 'dropdown-item'} to="/">Home 1</Link>
                                     </li>
@@ -41,7 +38,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link  className={location.pathname === '/about-us' ? 'nav-link active' : 'nav-link'} to="/about-us">About</Link>
+                                <Link className={location.pathname === '/about-us' ? 'nav-link active' : 'nav-link'} to="/about-us">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={location.pathname === '/service' ? 'nav-link active' : 'nav-link'} to="/service">Services</Link>
@@ -55,11 +52,21 @@ const Header = () => {
                                     Pages
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                    <li><Link className={location.pathname === '/blog' ? 'dropdown-item active' : 'dropdown-item'} to="/blog">Blog</Link></li>
-                                    <li><Link className={location.pathname === '/ourProcess' ? 'dropdown-item active' : 'dropdown-item'} to="/ourProcess">Our Process</Link></li>
-                                    <li><Link className={location.pathname === '/faq' ? 'dropdown-item active' : 'dropdown-item'} to="/faq">Faq</Link></li>
-                                    <li><Link className={location.pathname === '/forgetPassword' ? 'dropdown-item active' : 'dropdown-item'} to="/forgetPassword">Forget Password</Link></li>
-                                    <li><Link className={location.pathname === '/404' ? 'dropdown-item active' : 'dropdown-item'} to="/404">404 Error</Link></li>
+                                    <li>
+                                        <Link className={location.pathname === '/blog' ? 'dropdown-item active' : 'dropdown-item'} to="/blog">Blog</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={location.pathname === '/ourProcess' ? 'dropdown-item active' : 'dropdown-item'} to="/ourProcess">Our Process</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={location.pathname === '/faq' ? 'dropdown-item active' : 'dropdown-item'} to="/faq">Faq</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={location.pathname === '/forgetPassword' ? 'dropdown-item active' : 'dropdown-item'} to="/forgetPassword">Forget Password</Link>
+                                    </li>
+                                    <li>
+                                        <Link className={location.pathname === '/404' ? 'dropdown-item active' : 'dropdown-item'} to="/404">404 Error</Link>
+                                    </li>
                                 </ul>
                             </li>
                             <li className="nav-item">
@@ -67,8 +74,8 @@ const Header = () => {
                             </li>
                         </ul>
                         <form className="d-flex gap-2 authBtn">
-                            <Link to="signUp.html">Sign Up</Link>
-                            <Link to="login.html">Log in</Link>
+                            <Link to="/signUp">Sign Up</Link>
+                            <Link to="/login">Log in</Link>
                         </form>
                     </div>
                 </div>

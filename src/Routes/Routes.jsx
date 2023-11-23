@@ -3,8 +3,8 @@ import Home from "../Pages/Home1/Home";
 import MainLayout from "../Layouts/MainLayout";
 import NotFound from "../Pages/404/NotFound";
 import About from "../Pages/About";
-import Service from "../Pages/Service/Service";
-import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
+import Service from "../Pages/Service";
+import ServiceDetails from "../Pages/ServiceDetails";
 
 export const router = createBrowserRouter([
     {

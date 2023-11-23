@@ -24,7 +24,7 @@ const AllService = () => {
                                 <div className='flex-grow-1'>
                                     <img className="service_image mb-3" src={data.imageUrl} alt="img" />
                                     <img className="service_hover_image mb-3" src={data.imageUrl2} alt="img" />
-                                    <h3 className="fs_32 title fw_600 black">{data.title}</h3>
+                                    <h3 className="fs_32 titleColor fw_600">{data.title}</h3>
                                     <p className="fs_20 fw_400 black">{data.content}</p>
                                 </div>
                                 <div className="img_round_yellow_bg">

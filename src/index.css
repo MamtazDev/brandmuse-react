@@ -418,7 +418,7 @@ input {
     color: var(--textColor);
 }
 
-.title {
+.titleColor {
     color: var(--buttonColor);
 }
 
