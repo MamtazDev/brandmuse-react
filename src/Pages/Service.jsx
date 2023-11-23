@@ -7,13 +7,15 @@ import ClientReviewSlider from '../Components/Home1/Shared/ClientReview/ClientRe
 import Pricing from '../Components/Home1/Shared/Pricing/Pricing';
 import AllService from '../Components/Service/AllService/AllService';
 import PortfolioSlider from '../Components/Home1/Shared/PortfolioSlider/PortfolioSlider';
+import SliderHeader from '../Components/Home1/Shared/PortfolioSlider/SliderHeader';
+import ServiceSlider from '../Components/Home1/Shared/PortfolioSlider/ServiceSlider';
 
 const Service = () => {
     return (
         <div>
             <BreadCrumb title="Service"></BreadCrumb>
             <AllService/>
-            <PortfolioSlider/>
+            <ServiceSlider/>
             <GetStarted/>
             <OurApproch/>
             <GrowthWith/>

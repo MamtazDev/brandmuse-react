@@ -1,0 +1,118 @@
+.review_wrapper {
+    border-radius: 0px 12px 12px 0px;
+    background: var(--otherColor2);
+    padding: 30px 78px 24px 95px;
+    width: 100%;
+}
+
+.koma2_img {
+    position: absolute;
+    right: 19% !important;
+    bottom: 37px;
+}
+
+.border_left {
+    border-left: 12px solid var(--primaryColor);
+    border-radius: 0px 12px 12px 0px !important;
+
+}
+
+.review_details {
+    /* text-align: center; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+.review_details h6 {
+    color: var(--textColor);
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+@media only screen and (max-width:768px) {
+    .review_details h6 {
+        font-size: 16px;
+    }
+
+    .review_wrapper {
+        padding: 28px 35px !important;
+    }
+
+    .koma2_img {
+        width: 50px;
+        height: 50px;
+        bottom: -10%;
+        right: 3% !important;
+    }
+}
+
+.project_details_content {
+    padding: 56px 30px;
+    border-radius: 11px;
+    border: 1px solid var(--borderColor);
+    background: var(--otherColor2);
+}
+
+
+.pdf_btn {
+    display: flex;
+    width: 188px;
+    padding: 17px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: var(--hompages-1-initial-color, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: var(--buttonColor);
+    border-radius: 13px;
+}
+
+.download_btn {
+    width: 279px;
+    padding: 17px 0px;
+    color: var(--hompages-1-initial-color, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: var(--primaryColor);
+    border-radius: 13px;
+}
+
+.project_image_div {
+    padding: 18px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    width: 60px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .project_details_content {
+        padding: 32px 28px;
+    }
+
+    .pdf_btn {
+        font-size: 13px;
+        width: 144px;
+    }
+    
+    .project_image_div1 {
+        padding: 15px !important;
+        width: 60px;
+        height: 60px;
+    }
+
+    .project_image_div1 img {
+        width: 31px;
+        height: 31px;
+    }
+}

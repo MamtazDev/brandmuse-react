@@ -30,13 +30,13 @@ const ProjectList = () => {
                     <div key={index} class="col-lg-6 mb_56">
                         <div class="portfolioBox trasitionTime">
                             <div class="overflow-hidden fintech mb_36">
-                                <img class="img-fluid" src={prodata.imgPro} alt="img"/>
+                                <img class="img-fluid" src={prodata?.imgPro} alt="img"/>
                             </div>
-                            <p className='black fs_20'>{prodata.titlePro}</p>
+                            <p className='black fs_20'>{prodata?.titlePro}</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <h1 class="fs_48 titleColor">{prodata.companyName}</h1>
+                                <h1 class="fs_48 titleColor">{prodata?.companyName}</h1>
                                 <div class="fitgoarrow trasitionTime">
-                                    <Link to={`/portfolio-details/${prodata.slug}`}>
+                                    <Link to={`/portfolio-details/${prodata?.slug}`}>
                                         <img class="img-fluid" src={Arrow} alt="img"/>
                                     </Link>
                                 </div>

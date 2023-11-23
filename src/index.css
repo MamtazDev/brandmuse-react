@@ -153,13 +153,14 @@ input {
     margin-bottom: 60px;
 }
 
-.mb_56{
+.mb_56 {
     margin-bottom: 50px;
 }
 
-.mb_36{
+.mb_36 {
     margin-bottom: 36px;
 }
+
 
 @media only screen and (max-width:768px) {
     .all_mb {
@@ -178,11 +179,11 @@ input {
         margin-bottom: 32px !important;
     }
 
-    .mb_36{
+    .mb_36 {
         margin-bottom: 20px;
     }
 
-    .mb_56{
+    .mb_56 {
         margin-bottom: 32px;
     }
 }
@@ -315,6 +316,20 @@ input {
 }
 
 
+.sectionHeader {
+    color: var(--neutralColor);
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .sectionHeader {
+        font-size: 24px;
+    }
+}
+
 
 .fs_16 {
     font-size: 16px;
@@ -382,7 +397,8 @@ input {
 
     .fs_20,
     .fs_24,
-    .fs_18 {
+    .fs_18,
+    .fs_28 {
         font-size: 16px;
     }
 
@@ -450,8 +466,6 @@ input {
     color: var(--secondaryColor);
 }
 
-.trasitionTime{
+.trasitionTime {
     transition: 0.6s ease-in-out;
 }
-
-

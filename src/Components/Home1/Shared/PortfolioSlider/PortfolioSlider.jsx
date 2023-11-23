@@ -18,21 +18,7 @@ const PortfolioSlider = () => {
 
     return (
         <div>
-            <div className="container mt_150 all_mb">
-                <div className="inner_mb d-flex justify-content-between align-items-center">
-                    <p className="sectionHeader text-center text-md-start mx-md-0 mx-auto">Some Of <br className="d-md-block" />
-                        The<span className="txt_curve"> Projects</span> We Have <br className="d-md-block" />
-                        Done Well
-                    </p>
-
-                    <div className="d-none d-md-block">
-                        <Link to="/portfolio" className="black fw_600 fs_24">
-                            View More
-                            <img className="img-fluid" src={RightArrow} alt="go" />
-                        </Link>
-                    </div>
-                </div>
-
+            <div className="container all_mb">
                 <OwlCarousel className='owl-theme' {...options}>
                     {portfolioSliderDatas.map((data, index) =>
 
@@ -70,13 +56,6 @@ const PortfolioSlider = () => {
                         </div>
                     )}
                 </OwlCarousel>
-
-                <div className="d-block d-md-none text-center mt-3">
-                    <Link to="/portfolio" className="black fw_600 fs_24">
-                        View More
-                        <img className="img-fluid" src={RightArrow} alt="go" />
-                    </Link>
-                </div>
 
             </div>
         </div>
