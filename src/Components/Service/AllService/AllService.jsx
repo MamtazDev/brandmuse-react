@@ -17,9 +17,9 @@ const AllService = () => {
                 </div>
 
 
-                <div className="row gy-3">
+                <div className="row gy-5">
                     {allServiceDatas.map((data, index) =>
-                        <div key={index} className="col-lg-4 text-center">
+                        <div key={index} className="col-lg-4 text-center ">
                             <div className="d-flex flex-column service_sec1_padding h-100">
                                 <div className='flex-grow-1'>
                                     <img className="service_image mb-3" src={data.imageUrl} alt="img" />

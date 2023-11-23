@@ -5,6 +5,7 @@ import NotFound from "../Pages/404/NotFound";
 import About from "../Pages/About";
 import Service from "../Pages/Service";
 import ServiceDetails from "../Pages/ServiceDetails";
+import Portfolio from "../Pages/Portfolio";
 
 export const router = createBrowserRouter([
     {
@@ -28,9 +29,12 @@ export const router = createBrowserRouter([
                 path: "/service-details/:id",
                 element: <ServiceDetails />,
             },
+            {
+                path: "/portfolio",
+                element: <Portfolio />,
+            },
 
         ]
     }
-
 
 ]);

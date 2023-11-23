@@ -6,7 +6,7 @@ import GrowthWith from '../Components/Home1/Shared/GrowthWith/GrowthWith';
 import ClientReviewSlider from '../Components/Home1/Shared/ClientReview/ClientReviewSlider';
 import Pricing from '../Components/Home1/Shared/Pricing/Pricing';
 import AllService from '../Components/Service/AllService/AllService';
-import PortfolioSlider from '../Components/Service/PortfolioSlider/PortfolioSlider';
+import PortfolioSlider from '../Components/Home1/Shared/PortfolioSlider/PortfolioSlider';
 
 const Service = () => {
     return (
