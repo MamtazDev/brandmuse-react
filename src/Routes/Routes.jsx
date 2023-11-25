@@ -10,9 +10,17 @@ import PortfolioDetails from "../Pages/PortfolioDetails";
 import Pricing from "../Pages/Pricing";
 import Contact from "../Pages/Contact";
 import Faq from "../Pages/Faq";
+import OurProcess from "../Pages/OurProcess";
+import SignIn from "../Pages/SignIn";
 
 export const router = createBrowserRouter([
     {
+        path: '/login',
+        element: <SignIn />,
+    },
+    {
+
+
         path: '/',
         element: <MainLayout />,
         errorElement: <NotFound />,
@@ -52,6 +60,10 @@ export const router = createBrowserRouter([
             {
                 path: "/faq",
                 element: <Faq />,
+            },
+            {
+                path: "/ourProcess",
+                element: <OurProcess />,
             },
 
         ]
