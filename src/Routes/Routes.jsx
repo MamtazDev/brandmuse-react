@@ -14,6 +14,7 @@ import OurProcess from "../Pages/OurProcess";
 import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import ForgetPassword from "../Pages/ForgetPassword";
+import Blog from "../Pages/Blog";
 
 export const router = createBrowserRouter([
 
@@ -61,6 +62,10 @@ export const router = createBrowserRouter([
             {
                 path: "/ourProcess",
                 element: <OurProcess />,
+            },
+            {
+                path: "/blog",
+                element: <Blog />,
             },
             {
                 path: "/404",
