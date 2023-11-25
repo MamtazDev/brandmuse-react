@@ -1,9 +1,14 @@
 import React from 'react';
+import AuthLayOut from '../AuthLayout/AuthLayOut';
+import LoginForm from '../Components/Auth/LoginForm';
+import Loginimg from '../assets/images/login1.png'
 
 const SignIn = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            <AuthLayOut AuthImg={Loginimg}>
+                <LoginForm />
+            </AuthLayOut>
         </div>
     );
 };
