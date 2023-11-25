@@ -44,6 +44,11 @@ label {
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
+    transition: 0.6s ease-in-out;
+}
+
+.backBtn:hover{
+    text-decoration: underline;
 }
 
 .login_btn {

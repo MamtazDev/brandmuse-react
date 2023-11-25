@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../Pages/Home1/Home";
 import MainLayout from "../Layouts/MainLayout";
-import NotFound from "../Pages/404/NotFound";
+import NotFound from "../Pages/NotFound";
 import About from "../Pages/About";
 import Service from "../Pages/Service";
 import ServiceDetails from "../Pages/ServiceDetails";
@@ -12,15 +12,12 @@ import Contact from "../Pages/Contact";
 import Faq from "../Pages/Faq";
 import OurProcess from "../Pages/OurProcess";
 import SignIn from "../Pages/SignIn";
+import SignUp from "../Pages/SignUp";
+import ForgetPassword from "../Pages/ForgetPassword";
 
 export const router = createBrowserRouter([
-    {
-        path: '/login',
-        element: <SignIn />,
-    },
-    {
 
-
+    {
         path: '/',
         element: <MainLayout />,
         errorElement: <NotFound />,
@@ -52,7 +49,7 @@ export const router = createBrowserRouter([
             {
                 path: "/pricing",
                 element: <Pricing />,
-            }, 
+            },
             {
                 path: "/contact-us",
                 element: <Contact />,
@@ -71,6 +68,18 @@ export const router = createBrowserRouter([
             },
 
         ]
-    }
+    },
+    {
+        path: '/login',
+        element: <SignIn />,
+    },
+    {
+        path: '/signUp',
+        element: <SignUp />,
+    },
+    {
+        path: '/forgetPassword',
+        element: <ForgetPassword />,
+    },
 
 ]);

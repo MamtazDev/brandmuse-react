@@ -1,7 +1,6 @@
 import React from 'react';
-import Errorimg  from '../../assets/images/404.png';
-
-const NotFound = () => {
+import Errorimg  from '../../../assets/images/404.png';
+const Error = () => {
     return (
         <div>
             <div className="container">
@@ -13,4 +12,4 @@ const NotFound = () => {
     );
 };
 
-export default NotFound;
+export default Error;

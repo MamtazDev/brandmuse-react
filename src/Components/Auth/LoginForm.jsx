@@ -6,39 +6,38 @@ import { Link } from 'react-router-dom';
 const LoginForm = () => {
     return (
         <div>
-            <div class="small_Area">
-                <div class="text-center text-lg-start mb_56">
+            <div className="small_Area">
+                <div className="text-center text-lg-start mb_56">
                     <Link to="/" >
-                        <img class="img-fluid" src={Logo} alt="Logo" />
+                        <img className="img-fluid" src={Logo} alt="Logo" />
                     </Link>
                 </div>
-                <div class="welcome_div">
+                <div className="welcome_div">
                     <p>Welcome 👋</p>
                     <h6>Please login here</h6>
 
                 </div>
-                <div class="mb-3">
-                    <label class="form-label">Email address</label>
-                    <input type="email" class="form-control email_input w-100"
+                <div className="mb-3">
+                    <label className="form-label">Email address</label>
+                    <input type="email" className="form-control email_input w-100"
                         placeholder="Johnson.watson@exmple.com" />
                 </div>
-                <div class="mb-3">
-                    <label class="form-label">Email address</label>
-                    <input type="password" class="form-control email_input" placeholder="password" />
+                <div className="mb-3">
+                    <label className="form-label">Email address</label>
+                    <input type="password" className="form-control email_input" placeholder="password" />
                 </div>
 
                 {/* <!-- remember text --> */}
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
-                            checked />
-                        <label class="form-check-label remember" htmlFor="flexCheckChecked">
+                <div className="d-flex justify-content-between align-items-center">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                        <label className="form-check-label remember" htmlFor="flexCheckChecked">
                             Remember Me
                         </label>
                     </div>
-                    <Link to="/forgetPassword" class="forget">Forgot Password?</Link>
+                    <Link to="/forgetPassword" className="forget">Forgot Password?</Link>
                 </div>
-                <button class="login_btn w-100">Login</button>
+                <button className="login_btn w-100">Login</button>
             </div>
         </div>
     );
