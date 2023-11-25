@@ -7,6 +7,7 @@ import Service from "../Pages/Service";
 import ServiceDetails from "../Pages/ServiceDetails";
 import Portfolio from "../Pages/Portfolio";
 import PortfolioDetails from "../Pages/PortfolioDetails";
+import Pricing from "../Pages/Pricing";
 
 export const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
             {
                 path: "/portfolio-details/:project",
                 element: <PortfolioDetails />,
+            },
+            {
+                path: "/pricing",
+                element: <Pricing />,
             },
 
         ]

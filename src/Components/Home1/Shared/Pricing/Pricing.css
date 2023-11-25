@@ -1,5 +1,18 @@
 /* Our Pricing Start */
 
+
+.darkFont {
+    color: var(--buttonColor);
+    font-size: 18px;
+    line-height: 150%;
+}
+
+@media only screen and (max-width:768px) {
+    .darkFont {
+        font-size: 16px;
+    }
+}
+
 .billed_heading {
     display: flex;
     justify-content: center;

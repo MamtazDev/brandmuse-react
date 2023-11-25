@@ -78,8 +78,6 @@ const DetailSidebar = ({ ProjectDetails }) => {
                     </div>
                 </div>
             )}
-
-
         </div>
     );
 };
