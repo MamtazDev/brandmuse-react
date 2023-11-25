@@ -9,7 +9,7 @@ import ClientReviewSlider from '../Components/Home1/Shared/ClientReview/ClientRe
 const About = () => {
     return (
         <div>
-            <BreadCrumb title="About US"></BreadCrumb>
+            <BreadCrumb title="About US" title1="About US"></BreadCrumb>
             <GetStarted/>
             <OurApproch/>
             <GrowthWith/>

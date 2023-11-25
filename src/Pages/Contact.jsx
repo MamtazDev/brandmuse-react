@@ -6,7 +6,7 @@ import ContactForm from '../Components/Contact/ContactForm';
 const Contact = () => {
     return (
         <div>
-            <BreadCrumb title="Contact Us" />
+            <BreadCrumb title="Contact Us" title1="Contact Us" />
             <Address/>
             <ContactForm/>
         </div>

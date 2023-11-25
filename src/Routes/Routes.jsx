@@ -9,6 +9,7 @@ import Portfolio from "../Pages/Portfolio";
 import PortfolioDetails from "../Pages/PortfolioDetails";
 import Pricing from "../Pages/Pricing";
 import Contact from "../Pages/Contact";
+import Faq from "../Pages/Faq";
 
 export const router = createBrowserRouter([
     {
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
             {
                 path: "/contact-us",
                 element: <Contact />,
+            },
+            {
+                path: "/faq",
+                element: <Faq />,
             },
 
         ]

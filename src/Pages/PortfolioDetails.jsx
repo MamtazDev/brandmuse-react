@@ -13,7 +13,7 @@ const PortfolioDetails = () => {
 
     return (
         <div>
-            <BreadCrumb title="Portfolio Details"></BreadCrumb>
+            <BreadCrumb title="Portfolio Details" title1="Portfolio Details"></BreadCrumb>
             <div class="container">
                 <div class="row gy-3 all_mb">
                     <div class="col-lg-8">

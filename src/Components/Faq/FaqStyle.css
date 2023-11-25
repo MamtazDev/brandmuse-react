@@ -1,0 +1,52 @@
+.faqInner {
+    border-radius: 20px;
+    border: 1px solid var(--OtherColor4);
+    background: var(--initialColor);
+    padding: 55px 0;
+}
+
+.faqContent{
+    max-width: 1155px;
+    margin: auto;
+}
+
+
+.accordion-item {
+    padding: 32px;
+    border-radius: 16px;
+    border: 0 !important;
+    background: var(--initialColor);
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+    width: 100%;
+}
+
+.accordion-button {
+    padding: 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: none !important;
+    background-color: unset !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    border-color: transparent !important;
+}
+
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button::after {
+    background-image: url("../../assets/images/blueplus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../../assets/home2/images/blueminus.png');
+}
+
+.accordion-body {
+    padding: 14px 0 0;
+}

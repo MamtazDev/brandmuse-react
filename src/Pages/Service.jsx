@@ -13,7 +13,7 @@ import ServiceSlider from '../Components/Home1/Shared/PortfolioSlider/ServiceSli
 const Service = () => {
     return (
         <div>
-            <BreadCrumb title="Service"></BreadCrumb>
+            <BreadCrumb title="Service" title1="Service"></BreadCrumb>
             <AllService/>
             <ServiceSlider/>
             <GetStarted/>

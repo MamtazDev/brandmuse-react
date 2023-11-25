@@ -8,7 +8,7 @@ import BreadCrumb from '../Utils/BreadCrumb/BreadCrumb';
 const Pricing = () => {
     return (
         <div>
-             <BreadCrumb title="Pricing"></BreadCrumb>
+             <BreadCrumb title="Pricing" title1="Pricing"></BreadCrumb>
              <GetStarted/>
              <PricingCom/>
              <BestService/>

@@ -8,7 +8,7 @@ import ProjectList from '../Components/Portfolio/PortfolioProject/ProjectList';
 const Portfolio = () => {
     return (
         <div>
-             <BreadCrumb title="Portfolio"></BreadCrumb>
+             <BreadCrumb title="Portfolio" title1="Portfolio"></BreadCrumb>
              <ProjectList/>
              <GetStarted/>
              <GrowthWith/>

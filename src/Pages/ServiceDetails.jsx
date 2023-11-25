@@ -14,7 +14,7 @@ const ServiceDetails = () => {
 
     return (
         <div>
-            <BreadCrumb title="Service Details"></BreadCrumb>
+            <BreadCrumb title="Service Details" title1="Service Details"></BreadCrumb>
             <Detail matchingServiceData = {matchingServiceDatas} />
         </div>
     );

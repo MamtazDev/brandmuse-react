@@ -4,7 +4,7 @@ import Arrow from '../../assets/home1/breadcrumb.png'
 import Arrow1 from '../../assets/home1/breadcrumb1.png'
 import { Link, useLocation } from 'react-router-dom';
 
-const BreadCrumb = ({title}) => {
+const BreadCrumb = ({title,title1}) => {
     const location = useLocation();
     const path = location.pathname;
     return (
@@ -12,7 +12,7 @@ const BreadCrumb = ({title}) => {
             <section className="about_container all_mb">
                 <div className="container">
                     <div>
-                        <h3 className="breadcrumb_title">{title}</h3>
+                        <h3 className="breadcrumb_title">{title1}</h3>
                         <div className="pageLink d-flex justify-content-center align-items-center gap-2">
                             <Link to='/' className="text-white ">Home</Link>
                             <span className="d-none d-lg-block"><img className="img-fluid" src={Arrow}alt="img"/></span>
