@@ -65,6 +65,10 @@ export const router = createBrowserRouter([
                 path: "/ourProcess",
                 element: <OurProcess />,
             },
+            {
+                path: "/404",
+                element: <NotFound />,
+            },
 
         ]
     }
