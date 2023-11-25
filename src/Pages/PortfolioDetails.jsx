@@ -14,17 +14,17 @@ const PortfolioDetails = () => {
     return (
         <div>
             <BreadCrumb title="Portfolio Details" title1="Portfolio Details"></BreadCrumb>
-            <div class="container">
-                <div class="row gy-3 all_mb">
-                    <div class="col-lg-8">
+            <div className="container">
+                <div className="row gy-3 all_mb">
+                    <div className="col-lg-8">
                         <MainDetails ProjectDetails={ProjectDetails} />
                     </div>
-                    <div class="col-lg-4">
+                    <div className="col-lg-4">
                         <DetailSidebar ProjectDetails={ProjectDetails} />
                     </div>
                 </div>
                 <div>
-                    <p class="fs_48 titleColor text-center text-lg-start mb_64">More<span class="txt_curve">Portfolio</span></p>
+                    <p className="fs_48 titleColor text-center text-lg-start mb_64">More<span className="txt_curve">Portfolio</span></p>
                     <PortfolioSlider />
                 </div>
             </div>

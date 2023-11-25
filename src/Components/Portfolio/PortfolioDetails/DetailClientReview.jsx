@@ -7,18 +7,18 @@ const DetailClientReview = ({ detail }) => {
     return (
         <div>
             {/* <!-- review --> */}
-            <div class="border_left w-100">
-                <div class="review_wrapper">
-                    <div class="review_details position-relative">
-                        <img class="img-fluid" src={Img1} alt="img" />
+            <div className="border_left w-100">
+                <div className="review_wrapper">
+                    <div className="review_details position-relative">
+                        <img className="img-fluid" src={Img1} alt="img" />
                         <div>
-                            <h6 class=" mb-3 fst-italic para">
+                            <h6 className=" mb-3 fst-italic para">
                                 {detail.clientReview}
                             </h6>
-                            <p class="fs_24 fw_600 black">{detail.clientName}</p>
+                            <p className="fs_24 fw_600 black">{detail.clientName}</p>
                         </div>
-                        <div class="koma2_img">
-                            <img class="img-fluid" src={Img2} alt="img" />
+                        <div className="koma2_img">
+                            <img className="img-fluid" src={Img2} alt="img" />
                         </div>
                     </div>
 

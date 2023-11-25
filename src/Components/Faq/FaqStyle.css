@@ -44,7 +44,7 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('../../assets/home2/images/blueminus.png');
+    background-image: url('../../assets/images/blueminus.png');
 }
 
 .accordion-body {
