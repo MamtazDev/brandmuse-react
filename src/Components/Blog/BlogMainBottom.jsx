@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom';
 
 const BlogMainBottom = ({ members, amount, setPage, page }) => {
     const pages = [];
-    for (let i = 1; i <= Math.ceil(members.length / amount); i++) {
+    for (let i = 1; i <= Math.ceil(members / amount); i++) {
         pages.push(i);
     }
-
+ 
     const previousBtn = () => {
         if (page > 1) {
             setPage(page - 1);
         }
     };
-
+ 
     const nextBtn = () => {
         if (page < pages.length) {
             setPage(page + 1);
@@ -40,27 +40,28 @@ const BlogMainBottom = ({ members, amount, setPage, page }) => {
 
                     {pages.map((pageNumber) => (
                         <li className="page-item" key={pageNumber}>
-                            <Link
+                            <a
+                                type="button"
                                 to="#"
                                 className={`page-link page_number ${page === pageNumber ? 'active' : ''}`}
                                 onClick={() => setPage(pageNumber)}
                             >
                                 {pageNumber}
-                            </Link>
+                            </a>
                         </li>
                     ))}
 
                     {pages.map((index, pageItem) =>
                         pageItem > 0 ? (
-                            <button
+                            <a
                                 // style={{ border: page === pageItem && "1px solid #666" }}
                                 className={`page-link page_number ${page === pageItem ? 'active' : ''}`}
                                 onClick={() => setPage(pageItem)}
                                 key={index}
-                                type=""
+                                type="button"
                             >
                                 {pageItem}
-                            </button>
+                            </a>
                         ) : (
                             ""
                         )
@@ -68,14 +69,14 @@ const BlogMainBottom = ({ members, amount, setPage, page }) => {
 
                     <li className="page-item">
 
-                        <button
+                        <a 
                             style={{ opacity: page === pages.length - 1 && "0" }}
                             className="page-link right_arrow_bg"
                             onClick={nextBtn}
-                            type=""
+                            type="button"
                             disabled={page === pages.length - 1 && true}>
                             <span aria-hidden="true"><img src={Right} alt="" /></span>
-                        </button>
+                        </a>
                     </li>
                 </ul>
             </nav>
