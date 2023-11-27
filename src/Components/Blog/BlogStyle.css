@@ -55,9 +55,7 @@
 
 .card-title {
     color: var(--neutralColor) !important;
-    font-family: 'Work Sans', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 150%;
 }
@@ -72,22 +70,11 @@
 
 .blog_search_label {
     color: var(--buttonColor);
-    font-family: Work Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 150%;
 }
 
-.blue_btn {
-    border-radius: 8px;
-    background: var(--primaryColor);
-    box-shadow: 0px 2px 24px 0px rgba(105, 92, 255, 0.25);
-    padding: 26px;
-    height: 57px;
-    display: flex;
-    align-items: center;
-}
 
 .blue_btn1 {
     border-radius: 8px;
@@ -96,10 +83,17 @@
     width: 157px;
     color: var(--buttonColor);
     height: 57px;
+    transition: 0.6s ease-in-out;
 }
 
+.blue_btn1:hover , .blue_btn1.blue_btn_active {
+    background: var(--primaryColor) !important;
+    color: var(--initialColor) !important;
+}
+
+
 .blog_btns {
-    gap: 24px;
+    gap: 20px;
 }
 
 .search_input {

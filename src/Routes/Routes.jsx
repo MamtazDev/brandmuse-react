@@ -66,6 +66,10 @@ export const router = createBrowserRouter([
             {
                 path: "/blog",
                 element: <Blog />,
+            }, 
+            {
+                path: "/blog-detail/:slug",
+                element: <Blog />,
             },
             {
                 path: "/404",

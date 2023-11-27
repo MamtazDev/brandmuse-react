@@ -5,33 +5,33 @@ import Search from '../../assets/images/search.png'
 const BlogMainTop = () => {
     return (
         <div className='mb-5'>
-            <p class="sectionHeader text-center mt_150" style={{ marginBottom: "76px" }}>Some
-                <span class="txt_curve">recent blogs </span>to <br/>
-                    learn more about us.
+            <p className="sectionHeader text-center mt_150" style={{ marginBottom: "76px" }}>Some
+                <span className="txt_curve">recent blogs </span>to <br />
+                learn more about us.
             </p>
             {/* <!-- search container --> */}
-            <label for="exampleFormControlInput1" class="form-label blog_search_label">By
+            <label htmlFor="exampleFormControlInput1" className="form-label blog_search_label">By
                 keyword</label>
-            <div class="row align-items-center">
-                <div class="col-lg-4">
+            <div className="row align-items-center">
+                <div className="col-lg-4">
                     <div>
-                        <div class="d-flex gap-2">
-                            <input type="email" class="form-control search_input" id="exampleFormControlInput1"
-                                placeholder="Search by keyword"/>
-                                <button class="search_btn">
-                                    <img class="img-fluid" src={Search} alt="#"/>
-                                </button>
+                        <div className="d-flex gap-2">
+                            <input type="email" className="form-control search_input" id="exampleFormControlInput1"
+                                placeholder="Search by keyword" />
+                            <button className="search_btn">
+                                <img className="img-fluid" src={Search} alt="#" />
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 mt-5 mt-lg-0 small_device_blog_btns">
-                    <div class="d-flex blog_btns filterBtn">
-                        <button class="blue_btn white">All</button>
-                        <button class="blue_btn1 white">UI/UX</button>
-                        <button class="blue_btn1 white">Landing Page</button>
-                        <button class="blue_btn1 white">Website</button>
-                        <button class="blue_btn1 white">App Design</button>
-                        <button class="blue_btn1 white">Finance</button>
+                <div className="col-lg-8 mt-5 mt-lg-0 small_device_blog_btns">
+                    <div className="d-flex blog_btns filterBtn">
+                        <button className="blue_btn1 blue_btn_active">All</button>
+                        <button className="blue_btn1">UI/UX</button>
+                        <button className="blue_btn1">Landing Page</button>
+                        <button className="blue_btn1">Website</button>
+                        <button className="blue_btn1">App Design</button>
+                        <button className="blue_btn1">Finance</button>
                     </div>
                 </div>
             </div>
