@@ -8,16 +8,16 @@ import BlogMainBottom from './BlogMainBottom';
 import { useState } from 'react';
 
 const BlogMain = () => {
-    const [page, setPage] = useState(1);
-    const [amount, setAmount] = useState(4);
-    const lastIndex = page * amount;
-    const firstIndex = lastIndex - amount;
-    const blogDatas1 = blogDatas.slice(firstIndex,lastIndex)
+    // const [page, setPage] = useState(1);
+    // const [amount, setAmount] = useState(4);
+    // const lastIndex = page * amount;
+    // const firstIndex = lastIndex - amount;
+    // const blogDatas1 = blogDatas.slice(firstIndex,lastIndex)
     return (
         <div className='container'>
             <BlogMainTop />
             <div className="row mb-5 gy-3">
-                {blogDatas1.map((blogData, index) =>
+                {blogDatas.map((blogData, index) =>
                     <div key={index} className="col-lg-4 ui">
                         <div className="card blog_card p-4 text-left h-100 ">
                             <img className="img-fluid card-img-top" src={blogData?.imgUrl} alt="img" />

@@ -2,18 +2,17 @@
     background-image: url('../../assets/images/aboutbg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 45px 0 ;
+}
+
+.headerWidth{
+    max-width: 682px;
 }
 
 .about_container h3 {
     color: var(--initialColor);
     font-family: 'ClashDisplay-Semibold';
     font-size: 48px;
-    font-style: normal;
     font-weight: 600;
     line-height: 150%;
 }

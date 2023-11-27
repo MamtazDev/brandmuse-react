@@ -1,7 +1,6 @@
 import React from 'react';
 import Point from '../../../assets/images/CheckCircle.png'
 import DetailClientReview from './DetailClientReview';
-import PortfolioSlider from '../../Home1/Shared/PortfolioSlider/PortfolioSlider';
 
 const MainDetails = ({ ProjectDetails }) => {
     return (
@@ -43,8 +42,7 @@ const MainDetails = ({ ProjectDetails }) => {
                             )}
                         </div>
                     </div>
-                    <DetailClientReview detail = {detail}/>
-                    
+                    <DetailClientReview detail={detail} />
                 </div>
             )}
         </div>

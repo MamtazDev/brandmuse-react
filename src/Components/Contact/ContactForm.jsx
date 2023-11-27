@@ -24,17 +24,17 @@ const ContactForm = () => {
                             <form className="contact_form">
                                 <div className="row">
                                     <div className="form-group col-md-6">
-                                        <label>Full Name</label>
-                                        <input type="text" className="form-control" placeholder="Your name here" />
+                                        <label htmlFor='name'>Full Name</label>
+                                        <input type="text" id='name' className="form-control" placeholder="Your name here" />
                                     </div>
                                     <div className="form-group col-md-6">
-                                        <label>E-Mail</label>
-                                        <input type="email" className="form-control" placeholder="Your mail here" />
+                                        <label htmlFor='email'>E-Mail</label>
+                                        <input type="email"  id='email' className="form-control" placeholder="Your mail here" />
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="form-group col-md-6">
-                                        <label for="inputEmail4">Phone Number</label>
+                                        <label htmlFor="inputEmail4">Phone Number</label>
                                         <input type="text" className="form-control" id="inputEmail4" placeholder="Phone Number" />
                                     </div>
                                     <div className="form-group col-md-6">
