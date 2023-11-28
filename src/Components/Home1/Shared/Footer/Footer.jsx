@@ -5,6 +5,7 @@ import Instagram from '../../../../assets/home1/instagram.svg';
 import FaceBook from '../../../../assets/home1/facebook.svg';
 import Twitter from '../../../..//assets/home1/Twitter.png';
 import MarqueeFast from '../Marquee/MarqueeFast';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -27,10 +28,10 @@ const Footer = () => {
                     <div className="col-md-3 col-lg-2">
                         <ul className="text-center text-md-start">
                             <li>Links</li>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contactUs.html">Contact Us</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/service">Service</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/contact-us">Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="col-md-4 col-lg-2">
