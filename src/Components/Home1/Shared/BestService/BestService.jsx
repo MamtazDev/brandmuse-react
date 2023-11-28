@@ -75,7 +75,7 @@ const BestService = () => {
                                                         data-bs-dismiss="modal" aria-label="Close"></button>
                                                     <iframe
                                                         src="https://www.youtube.com/embed/mms2tTXLWZk?si=7DRlGqzKz6z-5pJl"
-                                                        title="YouTube video" allowfullscreen></iframe>
+                                                        title="YouTube video" allowFullScreen></iframe>
                                                 </div>
                                             </div>
 

@@ -44,7 +44,7 @@ export const blogDatas = [
         clientName:"Esabela Marun",
     },
     {
-        blogSlug: "app-design1",
+        blogSlug: "app-design-1",
         cat: "App Design",
         imgUrl: Blog3,
         detailimg: Detail1,
@@ -57,7 +57,7 @@ export const blogDatas = [
         clientName:"Esabela Marun",
     },
     {
-        blogSlug: "app-design2",
+        blogSlug: "app-design-3",
         cat: "App Design",
         imgUrl: Blog3,
         detailimg: Detail1,
@@ -68,10 +68,10 @@ export const blogDatas = [
         tag:[ "App Design", "Landing Page", "Website", "Finance"],
         clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
         clientName:"Esabela Marun",
-    },
+    }, 
     {
-        blogSlug: "app-design3",
-        cat: "App Design",
+        blogSlug: "finance",
+        cat: "Finance",
         imgUrl: Blog3,
         detailimg: Detail1,
         title: "How does design thinking work and what does it entail?",
