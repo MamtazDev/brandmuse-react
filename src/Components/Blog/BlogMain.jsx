@@ -9,10 +9,10 @@ import { useState } from 'react';
 
 const BlogMain = () => {
     const [page, setPage] = useState(1);
-    const [amount, setAmount] = useState(1);
+    const [amount, setAmount] = useState(3);
     const lastIndex = page * amount;
     const firstIndex = lastIndex - amount;
-    const blogDatas1 = blogDatas.slice(firstIndex,lastIndex)
+    const blogDatas1 = blogDatas.slice(firstIndex, lastIndex)
     return (
         <div className='container'>
             <BlogMainTop />
@@ -39,9 +39,9 @@ const BlogMain = () => {
                         </div>
                     </div>
                 )}
-                <div>
-                    <BlogMainBottom page={page} setPage={setPage} members={blogDatas.length} amount={amount}></BlogMainBottom>
-                </div>
+            </div>
+            <div>
+                <BlogMainBottom page={page} setPage={setPage} members={blogDatas.length} amount={amount}></BlogMainBottom>
             </div>
         </div>
     );

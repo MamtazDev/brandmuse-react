@@ -108,19 +108,7 @@
 
 /* pagination */
 
-.pagination {
-    --bs-pagination-border-color: none !important;
-    align-items: center;
-}
 
-
-.page-link:focus {
-    z-index: 3;
-    color: var(--bs-pagination-focus-color);
-    background-color: var(--bs-pagination-focus-bg);
-    outline: 0;
-    box-shadow: none !important;
-}
 
 .right_arrow_bg {
     border-radius: 11px !important;
@@ -128,15 +116,18 @@
 }
 
 .page_number {
-    border-radius: 11px !important;
-    background: var(--otherColor2) !important;
-    margin-right: 18px;
-    padding: 20px;
+    border-radius: 11px ;
+    background: var(--otherColor2) ;
+    padding: 10px 20px;
+    color: var(--primaryColor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
 }
 
-.pagination {
-    display: flex;
-    justify-content: center;
+.page_number.active{
+    color: var(--initialColor);
+    background: var(--primaryColor);
 }
 
 /* pagination */
@@ -153,12 +144,6 @@
     align-items: start;
     gap: 16px;
 }
-
-/* 
-.design_thinking_wrapper p:first-child {
-    font-size: 32px;
-
-} */
 
 .review_wrapper {
     border-radius: 0px 12px 12px 0px;
