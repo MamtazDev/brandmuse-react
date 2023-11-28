@@ -25,7 +25,7 @@ const BlogMainBottom = ({ members, amount, setPage, page }) => {
                     onClick={previousBtn}
                     type=""
                     disabled={page === 1 && true}>
-                    <span><img src={Left} alt="" /></span>
+                    <span><img src={Left} alt="#" /></span>
                 </button>
 
                 {pages.map((index, pageItem) =>

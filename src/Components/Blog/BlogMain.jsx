@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const BlogMain = () => {
     const [page, setPage] = useState(1);
-    const [amount, setAmount] = useState(3);
+    const [amount] = useState(3);
     const lastIndex = page * amount;
     const firstIndex = lastIndex - amount;
     const blogDatas1 = blogDatas.slice(firstIndex, lastIndex)

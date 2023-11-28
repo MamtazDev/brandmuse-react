@@ -74,14 +74,15 @@
     line-height: 150%;
 }
 
-
 .blue_btn1 {
+    color: var(--buttonColor);
+    font-size: 18px;
+    line-height: 150%;
     border-radius: 8px;
     background: var(--otherColor2);
-    padding: 10px 10px;
-    width: 157px;
+    padding: 15px 20px;
     color: var(--buttonColor);
-    height: 57px;
+    white-space: nowrap;
     transition: 0.6s ease-in-out;
 }
 
@@ -90,7 +91,6 @@
     background: var(--primaryColor) !important;
     color: var(--initialColor) !important;
 }
-
 
 .blog_btns {
     gap: 20px;
@@ -106,9 +106,9 @@
 }
 
 
+
+
 /* pagination */
-
-
 
 .right_arrow_bg {
     border-radius: 11px !important;
@@ -116,8 +116,8 @@
 }
 
 .page_number {
-    border-radius: 11px ;
-    background: var(--otherColor2) ;
+    border-radius: 11px;
+    background: var(--otherColor2);
     padding: 10px 20px;
     color: var(--primaryColor);
     font-size: 18px;
@@ -125,7 +125,7 @@
     line-height: 150%;
 }
 
-.page_number.active{
+.page_number.active {
     color: var(--initialColor);
     background: var(--primaryColor);
 }
@@ -148,7 +148,7 @@
 .review_wrapper {
     border-radius: 0px 12px 12px 0px;
     background: var(--otherColor2);
-    padding: 30px 0px 24px 95px;
+    padding: 30px 78px 24px 95px;
     width: 100%;
 }
 
@@ -156,11 +156,13 @@
     position: absolute;
     right: 19% !important;
     bottom: 37px;
+    width: 50px;
+    height: 50px;
 }
 
-.border_left {
+.border_left_blog {
     border-left: 12px solid var(--primaryColor);
-    border-radius: 0px 12px 12px 0px !important;
+    border-radius: 12px 12px 12px 12px !important;
 
 }
 
@@ -203,6 +205,22 @@
     height: 60px;
 }
 
+.two_color_text h3 {
+    color: var(--primaryColor);
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.two_color_text span {
+    color: var(--neutralColor);
+}
+
+.blogarea{
+    padding: 40px 20px;
+}
+
 .submit {
     padding: 10px;
     border-radius: 11px;
@@ -230,9 +248,7 @@
 
 .contact_form label {
     color: var(--buttonColor);
-    font-family: Work Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 150%;
 }
@@ -296,7 +312,6 @@
 .p_bd1 {
     padding-top: 32px;
     padding-left: 24px;
-    /* padding-bottom: 32px; */
 }
 
 .p_bd:last-child {
@@ -310,3 +325,15 @@
 
 
 /* popular  */
+
+
+@media only screen and (max-width: 768px) {
+    .small_device_blog_btns {
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+
+    .blue_btn1 {
+        font-size: 14px;
+    }
+}

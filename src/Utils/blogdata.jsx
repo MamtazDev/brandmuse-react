@@ -14,6 +14,8 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:["Design", "UI/UX", "Landing Page", "Website", "App Design", "Finance"],
+        clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     }, 
     {
         blogSlug: "web-development",
@@ -25,6 +27,8 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:["Web Development", "Landing Page", "Website", "App Design", "Finance"],
+        clientReview: "web Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     },
     {
         blogSlug: "app-design",
@@ -36,6 +40,8 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:[ "App Design", "Landing Page", "Website", "Finance"],
+        clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     },
     {
         blogSlug: "app-design1",
@@ -47,6 +53,8 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:[ "App Design", "Landing Page", "Website", "Finance"],
+        clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     },
     {
         blogSlug: "app-design2",
@@ -58,6 +66,8 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:[ "App Design", "Landing Page", "Website", "Finance"],
+        clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     },
     {
         blogSlug: "app-design3",
@@ -69,5 +79,7 @@ export const blogDatas = [
         detail1:"Lorem ipsum dolor sit amet, consectetur adipiscing elit proin mi pellentesque lorem turpis feugiat non sed sed sed aliquam lectus sodales gravida turpis maassa odio. we'll explore the importance of design in the software development process and how it can lead to more successful projects.",
         detail2: "Lorem ipsum dolor sit amet consectetur. Ipsum vitae tincidunt adipiscing sed tellus nulla sit ultrices. Arcu maecenas quam iaculis ullamcorper id posuere. Leo congue nulla quam pharetra. Pellentesque morbi dictumst congue risus luctus. Dictum eu maecenas ipsum dolor vel imperdiet. Euismod fermentum sed quisque risus malesuada molestie. Aliquam ut vel penatibus eu sit in egestas molestie nisl. Interdum euismod mattis euismod vulputate non.",
         tag:[ "App Design", "Landing Page", "Website", "Finance"],
+        clientReview: "Lorem ipsum dolor sit amet consectetur.consectetur lorem auctor volutpat rhoncus nulla.",
+        clientName:"Esabela Marun",
     },
 ]
