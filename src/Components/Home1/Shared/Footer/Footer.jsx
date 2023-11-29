@@ -74,8 +74,6 @@ const Footer = () => {
                                 </div>
                                 <button className="d-none d-md-block">Subscribe</button>
                             </div>
-
-
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,8 @@ import SignUp from "../Pages/SignUp";
 import ForgetPassword from "../Pages/ForgetPassword";
 import Blog from "../Pages/Blog";
 import BlogDetails from "../Pages/BlogDetails";
+import Layout2 from "../Layouts2/Layout2";
+import Home2 from "../Pages/Home2/Home2";
 
 export const router = createBrowserRouter([
 
@@ -67,7 +69,7 @@ export const router = createBrowserRouter([
             {
                 path: "/blog",
                 element: <Blog />,
-            }, 
+            },
             {
                 path: "/blog-detail/:slug",
                 element: <BlogDetails />,
@@ -91,5 +93,17 @@ export const router = createBrowserRouter([
         path: '/forgetPassword',
         element: <ForgetPassword />,
     },
+
+    {
+        path: '/home2',
+        element: <Layout2 />,
+        errorElement: <NotFound />,
+        children: [
+            {
+                path: "/home2",
+                element: <Home2 />,
+            },
+        ]
+    }
 
 ]);

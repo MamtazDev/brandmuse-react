@@ -1,0 +1,155 @@
+
+/* Header Start */
+.header2{
+    background: var(--initialColor);
+}
+
+.header2 .logoImg {
+    max-width: 252px;
+}
+
+.header2 .navbar {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+.header2 .navbar-nav {
+    gap: 46px;
+}
+
+.header2 .nav-link {
+    color: var(--buttonColor);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header2 .dropdown-toggle::after {
+    display: inline-block;
+    /* margin-left: 0.255em; */
+    margin-left: 0;
+    vertical-align: 0.2em;
+    content: "";
+    height: 15px;
+    width: 20px;
+    border-top: 0 !important;
+    border-right: none !important;
+    border-bottom: 0 !important;
+    border-left: none !important;
+    background-image: url("../assets/home2/direction-down2.png") !important;
+}
+
+.header2 .nav-link:hover {
+    color: var(--neutralColor) !important;
+}
+
+
+.header2 .navbar-nav .nav-link.active, .header2 
+.navbar-nav .nav-link.show {
+    color: var(--neutralColor) !important;
+}
+
+
+.header2 .dropdown-item.active,
+.header2 .dropdown-item:active {
+    color: var(--neutralColor);
+    background-color: var(--secondaryColor) !important;
+}
+
+.header2 .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header2 .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.header2 .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header2 .authBtn a {
+    padding: 10px;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    border: 1px solid transparent;
+}
+
+.header2 .authBtn a:first-child {
+    background-color: transparent;
+    color: var(--buttonColor);
+    transition: 0.6s ease-in-out;
+}
+
+.header2 .authBtn a:last-child {
+    background: var(--buttonColor);
+    color: var(--initialColor);
+}
+
+.header2 .authBtn a:first-child:hover {
+    border: 1px solid var(--buttonColor);
+}
+
+.header2 .authBtn a:last-child:hover {
+    background: transparent !important;
+    color: var(--neutralColor) !important;
+    border: 1px solid var(--buttonColor);
+}
+
+/* Responsive Header Start */
+
+@media only screen and (max-width:1170px) {
+    .header2 .navbar-nav {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .header2 .navbar-nav {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .header2 .authBtn {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .header2 .authBtn a {
+        width: max-content;
+    }
+
+    .header2 .navbar-collapse {
+        padding-bottom: 15px;
+    }
+
+    .header2 .navbar-nav {
+        gap: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .header2 .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .header2 .logoImg {
+        max-width: 200px;
+    }
+}
+
+/* Responsive Header End */
+/* Header End */
