@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home2.css'
+import './Commonstyle.css'
 import Banner from '../../Components/Home2/Banner';
 import Aboutus from '../../Components/Home2/Aboutus';
 import Service from '../../Components/Home2/Service';

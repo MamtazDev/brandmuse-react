@@ -1,0 +1,158 @@
+.colorBg {
+    background-color: var(--primaryColor);
+}
+
+/* Font Color Class Start */
+
+.fc_primary {
+    color: var(--primaryColor);
+}
+
+.fc_sec {
+    color: var(--secondaryColor);
+}
+
+.fc_button {
+    color: var(--buttonColor);
+}
+
+.fc_initial {
+    color: var(--initialColor) !important;
+}
+
+.fc_txt {
+    color: var(--textColor);
+}
+
+.fc_other {
+    color: var(--otherColor);
+}
+
+.fc_other2 {
+    color: var(--otherColor2);
+}
+
+.fc_nutral {
+    color: var(--neutralColor);
+}
+
+.fs_68 {
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.fs_50 {
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.fs_48 {
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.fs_32 {
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+
+.fs_24 {
+    color: var(--buttonColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.fs_20 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+fs_18 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+@media only screen and (max-width:768px) {
+    .fs_68 {
+        font-size: 29px;
+    }
+
+    .fs_48,
+    .fs_32,
+    .fs_50 {
+        font-size: 24px !important;
+    }
+
+    .fs_20,
+    .fs_24,
+    .fs_18 {
+        font-size: 16px;
+    }
+}
+
+.mb_130 {
+    margin-bottom: 130px;
+}
+
+.mb_156 {
+    margin-bottom: 150px;
+}
+
+.mb_42 {
+    margin-bottom: 38px;
+}
+
+
+.mb_68 {
+    margin-bottom: 65px;
+}
+
+.home3LetsTalk{
+    padding-top: 130px;
+}
+
+@media only screen and (max-width:768px) {
+    .mb_130 {
+        margin-bottom: 80px;
+    }
+
+    .home3LetsTalk{
+        padding-top: 80px;
+    }
+
+    .mb_156 {
+        margin-bottom: 30px;
+    }
+}
+
+.mt_48 {
+    margin-top: 45px;
+}
+
+
+
+.pb_48 {
+    padding-bottom: 45px;
+}
+
+.bottomBorder {
+    border-bottom: 1px solid var(--textColor);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }

@@ -18,6 +18,8 @@ import Blog from "../Pages/Blog";
 import BlogDetails from "../Pages/BlogDetails";
 import Layout2 from "../Layouts2/Layout2";
 import Home2 from "../Pages/Home2/Home2";
+import Home3 from "../Pages/Home3/Home3";
+import Layout3 from "../Layouts3/Layout3";
 
 export const router = createBrowserRouter([
 
@@ -104,6 +106,18 @@ export const router = createBrowserRouter([
                 element: <Home2 />,
             },
         ]
-    }
+    },
+    {
+        path: '/home3',
+        element: <Layout3 />,
+        errorElement: <NotFound />,
+        children: [
+            {
+                path: "/home3",
+                element: <Home3 />,
+            },
+        ]
+    },
+
 
 ]);

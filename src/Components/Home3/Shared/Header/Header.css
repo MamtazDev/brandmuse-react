@@ -1,25 +1,17 @@
-
 /* Header Start */
-.header2{
-    background: var(--initialColor);
-}
 
-.header2 .logoImg {
-    max-width: 252px;
-}
-
-.header2 .navbar {
+.header3 .navbar {
     padding-top: 17px;
     padding-bottom: 17px;
 }
 
 
-.header2 .navbar-nav {
+.header3 .navbar-nav {
     gap: 46px;
 }
 
-.header2 .nav-link {
-    color: var(--buttonColor);
+.header3 .nav-link {
+    color: var(--initialColor);
     font-size: 18px;
     font-weight: 400;
     padding: 0;
@@ -27,7 +19,7 @@
     font-weight: 400;
 }
 
-.header2 .dropdown-toggle::after {
+.header3 .dropdown-toggle::after {
     display: inline-block;
     /* margin-left: 0.255em; */
     margin-left: 0;
@@ -39,32 +31,31 @@
     border-right: none !important;
     border-bottom: 0 !important;
     border-left: none !important;
-    background-image: url("../../../../assets/home2/direction-down2.png") !important;
+    background-image: url("../../../../assets/home3/direction-down2.png") !important;
 }
 
-.header2 .nav-link:hover {
-    color: var(--neutralColor) !important;
+.header3 .nav-link:hover {
+    color: var(--otherColor2);
 }
 
 
-.header2 .navbar-nav .nav-link.active, .header2 
+.header3 .navbar-nav .nav-link.active, .header3 
 .navbar-nav .nav-link.show {
-    color: var(--neutralColor) !important;
+    color: var(--otherColor2);
+}
+
+.header3 .dropdown-item.active, .header3 .dropdown-item:active {
+    color: var(--initialColor);
+    background-color: var(--primaryColor) !important;
 }
 
 
-.header2 .dropdown-item.active,
-.header2 .dropdown-item:active {
-    color: var(--neutralColor);
-    background-color: var(--secondaryColor) !important;
-}
-
-.header2 .navbar-expand-lg .navbar-nav .nav-link {
+.header3 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
 }
 
-.header2 .navbar-toggler {
+.header3 .navbar-toggler {
     border: none;
     padding: 0;
 }
@@ -73,11 +64,11 @@
     outline: none;
 }
 
-.header2 .navbar-toggler:focus {
+.header3 .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.header2 .authBtn a {
+.header3 .authBtn a {
     padding: 10px;
     border-radius: 11px;
     font-size: 18px;
@@ -86,69 +77,73 @@
     border: 1px solid transparent;
 }
 
-.header2 .authBtn a:first-child {
+.header3 .authBtn a:first-child {
     background-color: transparent;
-    color: var(--buttonColor);
+    color: var(--initialColor);
     transition: 0.6s ease-in-out;
 }
 
-.header2 .authBtn a:last-child {
-    background: var(--buttonColor);
-    color: var(--initialColor);
+.header3 .authBtn a:last-child {
+    background: var(--secondaryColor);
+    color: var(--neutralColor);
 }
 
-.header2 .authBtn a:first-child:hover {
-    border: 1px solid var(--buttonColor);
+.header3 .authBtn a:first-child:hover {
+    border: 1px solid var(--secondaryColor);
 }
 
-.header2 .authBtn a:last-child:hover {
+.header3 .authBtn a:last-child:hover {
     background: transparent !important;
-    color: var(--neutralColor) !important;
-    border: 1px solid var(--buttonColor);
+    color: var(--initialColor) !important;
+    border: 1px solid var(--secondaryColor);
 }
 
 /* Responsive Header Start */
 
 @media only screen and (max-width:1170px) {
-    .header2 .navbar-nav {
-        gap: 20px;
+    .header3 .navbar-nav {
+        gap: 25px;
     }
 }
 
 @media only screen and (max-width:1024px) {
-    .header2 .navbar-nav {
+    .header3 .navbar-nav {
         gap: 10px;
     }
 }
 
 @media only screen and (max-width:991px) {
-    .header2 .authBtn {
+    .header3 .authBtn {
         flex-direction: column;
         gap: 25px;
     }
 
-    .header2 .authBtn a {
+    .header3 .authBtn a {
         width: max-content;
     }
 
-    .header2 .navbar-collapse {
+    .header3 .navbar-collapse {
         padding-bottom: 15px;
     }
 
-    .header2 .navbar-nav {
+    .header3 .navbar-nav {
         gap: 25px;
         padding-bottom: 25px;
     }
 }
 
+@media only screen and (max-width:600px) {
+
+    .header3 .logoImg {
+        width: 152px;
+    }
+}
+
 @media only screen and (max-width:330px) {
-    .header2 .navbar-brand {
+    .header3 .navbar-brand {
         margin-right: 0 !important;
     }
 
-    .header2 .logoImg {
-        max-width: 200px;
-    }
 }
 
 /* Responsive Header End */
