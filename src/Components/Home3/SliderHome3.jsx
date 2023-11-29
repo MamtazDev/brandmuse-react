@@ -29,9 +29,10 @@ const SliderHome3 = () => {
                                             <p class="fs_32 fc_initial text-center mb-5">
                                                 {data.content}
                                             </p>
+                                            <hr/>
                                             <div class="d-flex flex-column justify-content-center align-items-center gap-2">
                                                 <Link to="/portfolio">
-                                                    <img class="profileImg img-fluid" src={data.profileImg}
+                                                    <img class="profileImg3 img-fluid" src={data.profileImg}
                                                         alt="img" />
                                                 </Link>
                                                 <p class="fs_32 fc_initial">{data.name}</p>
