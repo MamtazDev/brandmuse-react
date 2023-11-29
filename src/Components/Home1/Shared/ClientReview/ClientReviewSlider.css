@@ -1,5 +1,5 @@
 
-.slider_img {
+.shadowField .slider_img {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -25,7 +25,7 @@
     right: 0;
 }
 
-.slider_text {
+.shadowField .slider_text {
     color: var(--hompages-1-neutral-color, #393939);
     font-family: Work Sans;
     font-size: 32px;
@@ -35,14 +35,14 @@
     margin-bottom: 53px !important;
 }
 
-.owl-carousel {
+.shadowField .owl-carousel {
     /* height: 506px; */
     display: flex;
     justify-content: end;
     align-items: end;
 }
 
-.owl-controlls {
+.shadowField .owl-controlls {
     text-align: center;
 }
 
@@ -51,7 +51,7 @@
     cursor: pointer;
 }
 
-.owl-controlls .owl-buttons div {
+.shadowField .owl-controlls .owl-buttons div {
     color: #FFF;
     display: inline-block;
     margin: 5px;
@@ -66,7 +66,7 @@
 
 
 
-.owl-nav button i {
+.shadowField .owl-nav button i {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -78,28 +78,28 @@
 
 }
 
-.owl-nav button i:hover {
+.shadowField .owl-nav button i:hover {
     border: 1px solid var(--primaryColor) !important;
     color: var(--primaryColor)
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
+.shadowField .owl-theme .owl-nav [class*=owl-]:hover {
     background: white !important;
     color: var(--primaryColor) !important;
 }
 
-.owl-theme .owl-nav {
+.shadowField .owl-theme .owl-nav {
     position: absolute;
     left: 46%;
     bottom: 16%;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
+.shadowField .owl-theme .owl-nav [class*=owl-]:hover {
     background: transparent !important;
 }
 
 
-.owl-nav button:hover .owl-nav button i {
+.shadowField .owl-nav button:hover .owl-nav button i {
     border: 1px solid var(--primaryColor) !important;
 }
 
@@ -132,7 +132,7 @@
     display: block !important;
 }
 
-.slider_wrapper {
+.shadowField .slider_wrapper {
     display: grid;
     grid-template-columns: 9fr 3fr;
     height: fit-content;
@@ -143,7 +143,7 @@
     margin-top: 100px;
 }
 
-.item_wrapper {
+.shadowField .item_wrapper {
     position: relative;
     padding: 68px;
     background: var(--otherColor2);
@@ -155,24 +155,24 @@
 
 
 @media (max-width: 992px) {
-    .slider_text {
+    .shadowField .slider_text {
         margin-bottom: 18px !important;
 
     }
 
-    .shadowField {
+    .shadowField .shadowField {
         margin-bottom: 121px;
     }
 
-    .slider_wrapper {
+    .shadowField .slider_wrapper {
         grid-template-columns: 1fr;
     }
 
-    .items {
+    .shadowField  .items {
         text-align: center;
     }
 
-    .item_wrapper {
+    .shadowField .item_wrapper {
         border-radius: 15px;
         height: 830px !important;
     }

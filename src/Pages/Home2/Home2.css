@@ -484,29 +484,6 @@ input {
     background: var(--buttonColor);
     padding-top: 420px;
 }
-
-.sliderPosition {
-    position: relative;
-}
-
-.sliderInner {
-    border-radius: 21px;
-    background: var(--initialColor);
-    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
-    padding: 65px 128px;
-    margin-top: 110px;
-}
-
-.profileImg {
-    border-radius: 50%;
-    max-width: 87px;
-    max-height: 87px;
-}
-
-.owl-carousel .owl-item img {
-    width: auto;
-}
-
 .collaborateimg {
     transition: 0.6s ease-in-out;
 }
@@ -514,6 +491,30 @@ input {
 .collaborateimg:hover {
     transform: translateY(-10%);
 }
+
+.sliderHome2 .sliderPosition {
+    position: relative;
+}
+
+.sliderHome2 .sliderInner {
+    border-radius: 21px;
+    background: var(--initialColor);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+    padding: 65px 128px;
+    margin-top: 110px;
+}
+
+.sliderHome2 .profileImg {
+    border-radius: 50%;
+    max-width: 87px;
+    max-height: 87px;
+}
+
+.sliderHome2 .owl-carousel .owl-item img {
+    width: auto;
+}
+
+
 
 @media only screen and (max-width:768px) {
     .collaborateimg {
@@ -523,7 +524,7 @@ input {
 }
 
 @media only screen and (max-width:600px) {
-    .sliderInner {
+    .sliderHome2 .sliderInner {
         padding: 24px 22px;
     }
 

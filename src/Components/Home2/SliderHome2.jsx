@@ -3,6 +3,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Content from '../../assets/home2/sliderContent.png'
+import { Link } from 'react-router-dom';
+import { clientReviewDatas } from '../../Utils/ClientReviewData';
 
 const SliderHome2 = () => {
     const options = {
@@ -15,36 +17,33 @@ const SliderHome2 = () => {
         dots: false,
     }
     return (
-        <div>
+        <div className='sliderHome2'>
             <div class="container">
                 <div class="sliderPosition">
                     <div class="sliderInner">
                         <OwlCarousel className='owl-theme' {...options}>
-                            <div class="item slider_wrapper">
-                                <div class="item_wrapper">
+                            {clientReviewDatas.map((data, index) =>
+                                <div class="item" key={index}>
                                     <div class="sliderContent">
                                         <div class="d-flex justify-content-center">
                                             <img class="object-fit-contain" src={Content} alt="img" />
                                         </div>
+
                                         <p class="fs_32 fc_button text-center mb-5">
-                                            They thoroughly analyze our industry and target audience, allowing
-                                            them to develop customized campaigns that effectively reach and engage
-                                            our customers. Their creative ideas and cutting-edge techniques have
-                                            helped us stay ahead of the competition.
+                                            {data.content}
                                         </p>
                                         <div class="d-flex justify-content-center align-items-center gap-2">
-                                            <a href="#">
-                                                <img class="profileImg img-fluid" src="./assets/home2/profile.png"
-                                                    alt="img" />
-                                            </a>
+                                            <Link to="/portfolio">
+                                                <img class="profileImg img-fluid" src={data.profileImg} alt="img" />
+                                            </Link>
                                             <div>
-                                                <p class="fs_24 fc_button">Sabrina Gomez</p>
-                                                <p class="fs_18 fc_txt">CEO Ncx Faster</p>
+                                                <p class="fs_24 fc_button">{data.name}</p>
+                                                <p class="fs_18 fc_txt">{data.desgination}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            )}
                         </OwlCarousel>
                     </div>
                 </div>
