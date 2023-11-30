@@ -1,10 +1,7 @@
 import React from 'react';
 import './Pricing.css';
-import BasicPrice from '../../../../assets/home1/priceBasic.png';
 import Check from '../../../../assets/home1/check.png';
 import CheckHover from '../../../../assets/home1/ckeckHover.png';
-import PricePro from '../../../../assets/home1/pricePro.png';
-import PriceEnter from '../../../../assets/home1/priceEnterprice.png';
 import { Link } from 'react-router-dom';
 import { priceListDatas } from '../../../../Utils/priceListData';
 
@@ -44,7 +41,7 @@ const Pricing = () => {
                                             <div className="d-flex flex-column gap-2">
                                                 {pricedata.include.map((incData, index) =>
                                                     <div
-                                                        className="darkFont fw-normal d-flex justify-content-start align-items-center gap-3">
+                                                        className="darkFont fw-normal d-flex justify-content-start align-items-center gap-3" key={index}>
                                                         <img className="checkOpacity" src={Check} alt="#" />
                                                         <img className="checkOpacityHover" src={CheckHover}
                                                             alt="#" />

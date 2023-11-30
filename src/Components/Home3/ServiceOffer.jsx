@@ -11,7 +11,7 @@ const ServiceOffer = () => {
                     <div class="row gy-3">
                         <div class="col-xl-6">
                             <div class="overflow-hidden">
-                                <img class="img-fluid blockImg serviceImg" src={OfferService}
+                                <img class="img-fluid blockImg serviceImg3" src={OfferService}
                                     alt="img" />
                             </div>
                         </div>
