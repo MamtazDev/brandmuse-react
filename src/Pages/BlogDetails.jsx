@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogDetailsBreadCrumb from '../Utils/BreadCrumb/BlogDetailsBreadCrumb';
-import { blogDatas } from '../Utils/BlogData';
+import { blogDatas } from '../Utils/blogdata';
 import { useLocation } from 'react-router-dom';
 import BlogDetailSidebar from '../Components/Blog/BlogDetail/BlogDetailSidebar';
 import BlogDetailMain from '../Components/Blog/BlogDetail/BlogDetailMain';
