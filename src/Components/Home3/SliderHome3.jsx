@@ -2,7 +2,7 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { clientReviewDatas } from '../../Utils/ClientReviewData';
+import { clientReviewDatas } from '../../Utils/clientReviewData';
 import { Link } from 'react-router-dom';
 
 const SliderHome3 = () => {

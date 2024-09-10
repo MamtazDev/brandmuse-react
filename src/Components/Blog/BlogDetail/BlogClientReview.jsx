@@ -2,7 +2,6 @@ import React from 'react';
 import '../BlogStyle.css'
 import Img1 from '../../../assets/images/koma1.png'
 import Img2 from '../../../assets/images/koma2.png'
-import { blogDatas } from '../../../Utils/BlogData';
 
 const BlogClientReview = ({review}) => {
     return (

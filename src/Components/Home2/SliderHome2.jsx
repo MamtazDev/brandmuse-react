@@ -4,7 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Content from '../../assets/home2/sliderContent.png'
 import { Link } from 'react-router-dom';
-import { clientReviewDatas } from '../../Utils/ClientReviewData';
+import { clientReviewDatas } from '../../Utils/clientReviewData';
 
 const SliderHome2 = () => {
     const options = {

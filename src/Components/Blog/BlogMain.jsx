@@ -3,7 +3,7 @@ import './BlogStyle.css'
 import BlogMainTop from './BlogMainTop'
 import { Link } from 'react-router-dom'
 import Right from '../../assets/images/rightyellowarrow.png'
-import { blogDatas } from '../../Utils/BlogData'
+import { blogDatas } from '../../Utils/blogdata'
 import BlogMainBottom from './BlogMainBottom';
 import { useState } from 'react';
 

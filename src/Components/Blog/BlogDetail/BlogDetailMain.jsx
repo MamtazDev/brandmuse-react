@@ -3,7 +3,7 @@ import '../BlogStyle.css'
 import BlogCommentForm from './BlogCommentForm';
 import BlogClientReview from './BlogClientReview';
 import { useLocation } from 'react-router-dom';
-import { blogDatas } from '../../../Utils/BlogData';
+import { blogDatas } from '../../../Utils/blogdata';
 import FB from '../../../assets/images/facebook.png'
 import LinkedIn from '../../../assets/images/linkdin.png'
 import TW from '../../../assets/images/twitter1.png'
