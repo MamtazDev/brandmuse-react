@@ -21,10 +21,10 @@ const BlogDetails = () => {
                 <div className="container">
                     <div className="row gy-3">
                         <div className="col-lg-8">
-                            <BlogDetailMain  blogDetails ={blogDetails} />
+                            <BlogDetailMain blogDetails={blogDetails} />
                         </div>
                         <div className="col-lg-4">
-                            <BlogDetailSidebar blogDetails ={blogDetails} />
+                            <BlogDetailSidebar blogDetails={blogDetails} />
                         </div>
                     </div>
                 </div>
