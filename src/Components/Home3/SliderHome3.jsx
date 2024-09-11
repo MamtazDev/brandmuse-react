@@ -1,42 +1,42 @@
-import React from 'react';
-import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { clientReviewDatas } from '../../Utils/clientReviewData';
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
 import { Link } from 'react-router-dom';
+import { clientReviewDatas } from '../../Utils/clientReviewData';
 
 const SliderHome3 = () => {
     const options = {
         items: 1,
         loop: true,
         nav: true,
-        navText: ["<i class='fa fa-chevron-left'></i>",
-            "<i class='fa fa-chevron-right'></i>"],
+        navText: ["<i className='fa fa-chevron-left'></i>",
+            "<i className='fa fa-chevron-right'></i>"],
         autoplay: true,
         dots: false,
     }
 
     return (
         <div className='sliderHome3'>
-            <div class="testimonialBg">
-                <div class="container">
-                    <div class="sliderInner">
+            <div className="testimonialBg">
+                <div className="container">
+                    <div className="sliderInner">
                         <OwlCarousel className='owl-theme' {...options}>
                             {clientReviewDatas.map((data, index) =>
-                                <div key={index} class="item slider_wrapper">
-                                    <div class="item_wrapper">
-                                        <div class="sliderContent">
-                                            <p class="fs_32 fc_initial text-center mb-5">
+                                <div key={index} className="item slider_wrapper">
+                                    <div className="item_wrapper">
+                                        <div className="sliderContent">
+                                            <p className="fs_32 fc_initial text-center mb-5">
                                                 {data.content}
                                             </p>
                                             <hr/>
-                                            <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+                                            <div className="d-flex flex-column justify-content-center align-items-center gap-2">
                                                 <Link to="/portfolio">
-                                                    <img class="profileImg3 img-fluid" src={data.profileImg}
+                                                    <img className="profileImg3 img-fluid" src={data.profileImg}
                                                         alt="img" />
                                                 </Link>
-                                                <p class="fs_32 fc_initial">{data.name}</p>
-                                                <p class="fs_18 fc_initial">{data.desgination}</p>
+                                                <p className="fs_32 fc_initial">{data.name}</p>
+                                                <p className="fs_18 fc_initial">{data.desgination}</p>
                                             </div>
                                         </div>
                                     </div>

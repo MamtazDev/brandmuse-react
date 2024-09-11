@@ -1,27 +1,27 @@
 import React from 'react';
 // import '../../../../Pages/Home2/Home2.css'
-import './Header.css'
-import MobileMenu from '../../../../assets/home2/mobileMenu.png'
-import Logo from '../../../../assets/home2/logo.png'
 import { Link } from 'react-router-dom';
+import Logo from '../../../../assets/home2/logo.png';
+import MobileMenu from '../../../../assets/home2/mobileMenu.png';
+import './Header.css';
 
 const Header = () => {
     return (
         <header className='header2'>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <Link class="navbar-brand" to="/home2">
-                        <img class="img-fluid logoImg" src={Logo} alt="Logo" />
+            <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                    <Link className="navbar-brand" to="/home2">
+                        <img className="img-fluid logoImg" src={Logo} alt="Logo" />
                     </Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <img src={MobileMenu} alt="Menu" />
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item dropdown">
-                                <Link class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav m-auto">
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown">
                                     Home
                                 </Link>
@@ -37,13 +37,13 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link className={location.pathname === '/about-us' ? 'nav-link active' : 'nav-link'} to="/about-us">About</Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link className={location.pathname === '/service' ? 'nav-link active' : 'nav-link'} to="/service">Services</Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'} to="/portfolio">Portfolio</Link>
                             </li>
                             <li className="nav-item dropdown">

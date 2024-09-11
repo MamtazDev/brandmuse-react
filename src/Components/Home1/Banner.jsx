@@ -17,8 +17,8 @@ const Banner = () => {
                             <div className="col-md-7">
                                 <h1 className="text-light">
                                     Empower Your Brand
-                                    with Our
-                                    <span>Creativity
+                                    with Our 
+                                    <span className='ms-2'> Creativity
                                         <img className="img-fluid" src={Highlight} alt="highlight"/>
                                     </span>
                                 </h1>

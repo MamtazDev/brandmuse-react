@@ -1,25 +1,25 @@
 import React from 'react';
-import './Header.css'
-import Logo from '../../../../assets/home3/logo.png'
-import Menu from '../../../../assets/home3/mobileMenu.png'
 import { Link } from 'react-router-dom';
+import Logo from '../../../../assets/home3/logo.png';
+import Menu from '../../../../assets/home3/mobileMenu.png';
+import './Header.css';
 
 const Header = () => {
     return (
         <header className='header3 home3Bg'>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <Link class="navbar-brand" to="/home3">
-                        <img class="img-fluid logoImg" src={Logo} alt="Logo" />
+            <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                    <Link className="navbar-brand" to="/home3">
+                        <img className="img-fluid logoImg" src={Logo} alt="Logo" />
                     </Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <img src={Menu} alt="Menu" />
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item dropdown">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav m-auto">
+                            <li className="nav-item dropdown">
                                 <Link className='nav-link dropdown-toggle' to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
                                     Home
                                 </Link>

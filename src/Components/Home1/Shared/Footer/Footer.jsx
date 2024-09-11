@@ -78,7 +78,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <p className="text-center">© 2023 Maxwell Inc. All rights reserved.</p>
+                <p className="text-center">© 2023 OpediaStudio. All rights reserved.</p>
             </div>
         </footer>
         </>

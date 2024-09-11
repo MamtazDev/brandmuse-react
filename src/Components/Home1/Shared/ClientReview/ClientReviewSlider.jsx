@@ -1,10 +1,10 @@
 
-import React from 'react';
-import './ClientReviewSlider.css'
-import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
 import { clientReviewDatas } from '../../../../Utils/clientReviewData';
+import './ClientReviewSlider.css';
 
 const ClientReviewSlider = () => {
 
@@ -12,8 +12,8 @@ const ClientReviewSlider = () => {
         items: 1,
         loop: true,
         nav: true,
-        navText: ["<i class='fa fa-chevron-left'></i>",
-            "<i class='fa fa-chevron-right'></i>"],
+        navText: ["<i className='fa fa-chevron-left'></i>",
+            "<i className='fa fa-chevron-right'></i>"],
         autoplay: true,
         dots: false,
     }

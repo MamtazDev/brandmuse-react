@@ -1,19 +1,19 @@
 import React from 'react';
-import Collaborate from '../../assets/home2/collaborate.png'
+import Collaborate from '../../assets/home2/collaborate.png';
 
 const LetsCollaborate = () => {
     return (
         <div>
             {/* <!-- Lets Collabotrate Start --> */}
-            <section class="collaborateBg mt_170">
-                <div class="container">
+            <section className="collaborateBg mt_170">
+                <div className="container">
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-                        <h2 class="fc_initial fs_68">
+                    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                        <h2 className="fc_initial fs_68">
                             Let’s Collaborate<br /> with us!
                         </h2>
                         <a href="#">
-                            <img class="img-fluid collaborateimg" src={Collaborate} alt="img"/>
+                            <img className="img-fluid collaborateimg" src={Collaborate} alt="img"/>
                         </a>
                     </div>
                 </div>

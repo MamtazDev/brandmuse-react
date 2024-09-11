@@ -1,44 +1,44 @@
 import React from 'react';
-import OfferService from '../../assets/home3/offerService.png'
-import Misc from '../../assets/home3/misc_01.png'
 import { Link } from 'react-router-dom';
+import Misc from '../../assets/home3/misc_01.png';
+import OfferService from '../../assets/home3/offerService.png';
 
 const ServiceOffer = () => {
     return (
         <div>
-            <section class="mb_130 home3Bg">
-                <div class="container">
-                    <div class="row gy-3">
-                        <div class="col-xl-6">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid blockImg serviceImg3" src={OfferService}
+            <section className="mb_130 home3Bg">
+                <div className="container">
+                    <div className="row gy-3">
+                        <div className="col-xl-6">
+                            <div className="overflow-hidden">
+                                <img className="img-fluid blockImg serviceImg3" src={OfferService}
                                     alt="img" />
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div className="col-xl-6">
                             <div>
-                                <p class="fs_48 fc_initial mb_68">
-                                    <span class="fc_primary">We</span> offer the best <span
-                                        class="fc_primary">service</span> to
+                                <p className="fs_48 fc_initial mb_68">
+                                    <span className="fc_primary">We</span> offer the best <span
+                                        className="fc_primary">service</span> to
                                     our customer
-                                    <span><img class="img-fluid" src={Misc} alt="img" /></span>
+                                    <span><img className="img-fluid" src={Misc} alt="img" /></span>
                                 </p>
-                                <div class="row gy-3">
-                                    <div class="col-lg-2">
-                                        <div class="noAlign">
-                                            <p class="serviceNo fc_initial fs_32 ">01</p>
+                                <div className="row gy-3">
+                                    <div className="col-lg-2">
+                                        <div className="noAlign">
+                                            <p className="serviceNo fc_initial fs_32 ">01</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
-                                        <p class="fs_32 fc_initial text-center text-lg-start">Web<br /> Development</p>
-                                        <p class="fs_18 fc_initial text-center text-lg-start">
+                                    <div className="col-lg-9">
+                                        <p className="fs_32 fc_initial text-center text-lg-start">Web<br /> Development</p>
+                                        <p className="fs_18 fc_initial text-center text-lg-start">
                                             Make the appearance of website pages so that
                                             they look so beautiful and pleasing to the eye.
                                         </p>
                                     </div>
-                                    <div class="col-lg-1 my-auto">
-                                        <div class="serviceLink">
-                                            <Link class="letsGoService" to="/service">
+                                    <div className="col-lg-1 my-auto">
+                                        <div className="serviceLink">
+                                            <Link className="letsGoService" to="/service">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="57" height="58"
                                                     viewBox="0 0 57 58" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -49,24 +49,24 @@ const ServiceOffer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <hr class="divide" />
-                                <div class="row gy-3">
-                                    <div class="col-lg-2">
-                                        <div class="noAlign">
-                                            <p class="serviceNo fc_initial fs_32 ">02</p>
+                                <hr className="divide" />
+                                <div className="row gy-3">
+                                    <div className="col-lg-2">
+                                        <div className="noAlign">
+                                            <p className="serviceNo fc_initial fs_32 ">02</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
-                                        <p class="fs_32 fc_initial text-center text-lg-start">UI/UX Design</p>
-                                        <p class="fs_18 fc_initial text-center text-lg-start">
+                                    <div className="col-lg-9">
+                                        <p className="fs_32 fc_initial text-center text-lg-start">UI/UX Design</p>
+                                        <p className="fs_18 fc_initial text-center text-lg-start">
                                             Defines the experience that users will have when
                                             interacting with the company, its services, and
                                             its products.
                                         </p>
                                     </div>
-                                    <div class="col-lg-1 my-auto">
-                                        <div class="serviceLink">
-                                            <Link class="letsGoService" to="/service">
+                                    <div className="col-lg-1 my-auto">
+                                        <div className="serviceLink">
+                                            <Link className="letsGoService" to="/service">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="57" height="58"
                                                     viewBox="0 0 57 58" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -77,23 +77,23 @@ const ServiceOffer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <hr class="divide" />
-                                <div class="row gy-3">
-                                    <div class="col-lg-2">
-                                        <div class="noAlign">
-                                            <p class="serviceNo fc_initial fs_32 ">03</p>
+                                <hr className="divide" />
+                                <div className="row gy-3">
+                                    <div className="col-lg-2">
+                                        <div className="noAlign">
+                                            <p className="serviceNo fc_initial fs_32 ">03</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
-                                        <p class="fs_32 fc_initial text-center text-lg-start">Graphic Design</p>
-                                        <p class="fs_18 fc_initial text-center text-lg-start">
+                                    <div className="col-lg-9">
+                                        <p className="fs_32 fc_initial text-center text-lg-start">Graphic Design</p>
+                                        <p className="fs_18 fc_initial text-center text-lg-start">
                                             Make the appearance of website pages so that they look
                                             so beautiful and pleasing to the eye.
                                         </p>
                                     </div>
-                                    <div class="col-lg-1 my-auto">
-                                        <div class="serviceLink">
-                                            <Link class="letsGoService" to="/service">
+                                    <div className="col-lg-1 my-auto">
+                                        <div className="serviceLink">
+                                            <Link className="letsGoService" to="/service">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="57" height="58"
                                                     viewBox="0 0 57 58" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
