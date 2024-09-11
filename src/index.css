@@ -30,6 +30,8 @@
 
 
 
+/* Scroll bar css End */
+
 .loader-wrapper {
     position: fixed;
     top: 0;
@@ -336,10 +338,6 @@ input {
     .commonPara {
         font-size: 16px;
     }
-}
-
-::-webkit-scrollbar {
-    width: 0px;
 }
 
 

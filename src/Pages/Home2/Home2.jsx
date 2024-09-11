@@ -11,7 +11,7 @@ import SliderHome2 from '../../Components/Home2/SliderHome2';
 
 const Home2 = () => {
     return (
-        <div>
+        <div className='home2_scrollbar'>
             <Banner/>
             <Aboutus/>
             <Service/>

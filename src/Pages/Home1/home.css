@@ -328,3 +328,20 @@ h1 span img {
 /* Our Service Responsive End */
 
 /* Our Service End */
+/* Scroll bar css Strat */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6e69a5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5D51F2;
+}

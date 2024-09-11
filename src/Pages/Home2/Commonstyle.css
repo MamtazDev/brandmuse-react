@@ -153,6 +153,3 @@ fs_18 {
     border-bottom: 1px solid var(--textColor);
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-  }
