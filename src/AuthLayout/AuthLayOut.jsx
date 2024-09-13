@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-
+    
 const AuthLayOut = ({AuthImg,children}) => {
     return (
         <div>
@@ -11,7 +12,7 @@ const AuthLayOut = ({AuthImg,children}) => {
                         </div>
                     </div>
                     <div className="col-lg-6 p-0 d-lg-block d-none">
-                        <img className="img-fluid" src={AuthImg} alt="img"/>
+                        <img style={{width:"100%",height:"100vh"}} className="img-fluid" src={AuthImg} alt="img"/>
                     </div>
                 </div>
             </section>

@@ -17,7 +17,7 @@ const GetStarted = () => {
                             quickly
                         </h2>
                         <div className="d-none d-md-block">
-                            <Link to="contact-us" className="stayBtn">
+                            <Link to="/contact-us" className="stayBtn">
                                 Start with us
                                 <img className="img-fluid" src={RightArrow} alt="go" />
                             </Link>

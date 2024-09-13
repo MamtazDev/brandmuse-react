@@ -5,11 +5,11 @@ import AuthLayOut from '../AuthLayout/AuthLayOut';
 
 const ForgetPassword = () => {
     return (
-        <div>
+        <>
             <AuthLayOut AuthImg={Signupimg}>
                 <ForgerPasswordForm />
             </AuthLayOut>
-        </div>
+        </>
     );
 };
 

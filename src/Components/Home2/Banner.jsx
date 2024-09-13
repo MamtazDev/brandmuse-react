@@ -18,7 +18,7 @@ const Banner = () => {
                                 alignments. Monotonectally.
                             </p>
                             <div className="text-center text-lg-start">
-                                <a href="#" className="letsTalkBtn mb_81 ">
+                                <a href="/contact-us" className="letsTalkBtn mb_81 ">
                                     Let’s Talk
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"

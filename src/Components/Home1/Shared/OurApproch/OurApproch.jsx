@@ -15,7 +15,7 @@ const OurApproch = () => {
                             Our tech-enabled marketing services help your
                             business grow online leads, calls, and revenue.
                         </p>
-                        <Link href="/contact-us" className="approchBtn">
+                        <Link to="/contact-us" className="approchBtn">
                             Let’s Talk
                             <img className="img-fluid" src={RightArrow} alt="Go" />
                         </Link>
