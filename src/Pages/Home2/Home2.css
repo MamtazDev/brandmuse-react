@@ -533,19 +533,21 @@ input {
 
 
 /* Scroll bar css Strat */
-::-webkit-scrollbar {
-    width: 15px;
+/* Common Scrollbar Styles */
+.home2_scrollbar {
+    width: auto ;
+    overflow-y: auto; /* Ensure scrolling is enabled */
 }
 
-::-webkit-scrollbar-track {
+.home2_scrollbar::-webkit-scrollbar-track {
     background: #fff;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #000000;
+.home2_scrollbar::-webkit-scrollbar-thumb {
+    background: #000000 !important  ;
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.home2_scrollbar::-webkit-scrollbar-thumb:hover {
     background: #FFDC40;
 }
