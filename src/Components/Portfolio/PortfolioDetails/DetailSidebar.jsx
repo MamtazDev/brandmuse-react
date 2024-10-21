@@ -6,6 +6,7 @@ import User3 from '../../../assets/images/user3.png'
 import Setting from '../../../assets/images/setting.png'
 import Calander from '../../../assets/images/calendar.png'
 
+// eslint-disable-next-line react/prop-types
 const DetailSidebar = ({ ProjectDetails }) => {
     return (
         <div>
@@ -53,10 +54,14 @@ const DetailSidebar = ({ ProjectDetails }) => {
                     </div>
                     <div className="project_details_content text-center d-flex flex-column justify-content-center align-items-center gap-4">
                         <div className="mx-auto text-center">
-                            <button
-                                className="download_btn d-flex align-items-center justify-content-center gap-2">Download
+                            <a
+                                href="/path-to-main-download-file.pdf"
+                                download
+                                className="download_btn d-flex align-items-center justify-content-center gap-2"
+                            >
+                                Download
                                 <img src={Download} alt="img" />
-                            </button>
+                            </a>
                         </div>
                         <p className="fs_20 grey">
                             Lorem ipsum dolor sit amet, consectetur
@@ -67,13 +72,22 @@ const DetailSidebar = ({ ProjectDetails }) => {
                         </p>
 
                         <div className="d-flex justify-content-between gap-4 mt_32">
-                            <button className="pdf_btn d-flex align-items-center justify-content-center gap-2">Website
-                                PDF
-                                <img src={Download} alt="img" /></button>
-
-                            <button className="pdf_btn d-flex align-items-center justify-content-center gap-2">Website
-                                PDF
-                                <img src={Download} alt="img" /></button>
+                            <a
+                                href="/path-to-pdf1-file.pdf"
+                                download
+                                className="pdf_btn d-flex align-items-center justify-content-center gap-2"
+                            >
+                                Website PDF 1
+                                <img src={Download} alt="img" />
+                            </a>
+                            <a
+                                href="/path-to-pdf2-file.pdf"
+                                download
+                                className="pdf_btn d-flex align-items-center justify-content-center gap-2"
+                            >
+                                Website PDF 2
+                                <img src={Download} alt="img" />
+                            </a>
                         </div>
                     </div>
                 </div>
