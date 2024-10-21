@@ -6,6 +6,7 @@ import User3 from '../../../assets/images/user3.png'
 import Setting from '../../../assets/images/setting.png'
 import Calander from '../../../assets/images/calendar.png'
 
+// eslint-disable-next-line react/prop-types
 const DetailSidebar = ({ ProjectDetails }) => {
     return (
         <div>
